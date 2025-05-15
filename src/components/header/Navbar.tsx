@@ -12,7 +12,7 @@ export default function Navbar() {
   const [showSearch, setShowSearch] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-white md:px-60 py-5">
+    <header className="sticky top-0 z-50 border-b bg-white md:px-50 py-5">
       {/* Desktop Top Navbar */}
       <div className="hidden lg:flex items-center justify-end px-8 py-3 space-x-6 text-sm font-semibold text-gray-700 relative">
         {topLinks.map(link => (
@@ -44,11 +44,11 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Bottom Navbar */}
-      <div className="hidden lg:flex items-center justify-between px-8 py-4">
+      <div className="hidden lg:flex items-center justify-between py-4">
         <div className="flex items-center space-x-3">
-          <Image src="/logo.svg" alt="IFDC Logo" width={160} height={40} />
+          <Image src="/next.svg" alt="IFDC Logo" width={160} height={40} />
         </div>
-        <nav className="flex items-center space-x-8 text-lg font-semibold text-gray-800">
+        <nav className="flex items-center gap-20 text-1xl font-bold text-gray-800">
           {bottomLinks.map(link => (
             <a key={link} href="#" className="hover:text-green-600">
               {link}
@@ -59,7 +59,7 @@ export default function Navbar() {
 
       {/* Mobile Navbar */}
       <div className="flex lg:hidden items-center justify-between px-4 py-3 shadow-md">
-        <Image src="/logo.svg" alt="IFDC Logo" width={140} height={35} />
+        <Image src="/next.svg" alt="IFDC Logo" width={140} height={35} />
         <button onClick={() => setMobileOpen(true)}>
           <Menu className="w-6 h-6 text-green-600" />
         </button>
@@ -69,7 +69,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-white flex flex-col px-6 pt-6 overflow-y-auto transition-all duration-300">
           <div className="flex items-center justify-between mb-4">
-            <Image src="/logo.svg" alt="IFDC Logo" width={140} height={35} />
+            <Image src="/next.svg" alt="IFDC Logo" width={140} height={35} />
             <button onClick={() => {
               if (showSearch) {
                 setShowSearch(false);

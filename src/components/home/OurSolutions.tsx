@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Solutions = () => {
   return (
     <div className="font-sans">
@@ -13,35 +13,41 @@ const Solutions = () => {
             </p>
           </div>
           <div className="flex flex-grow max-w-md flex-col">
-            <img
-              src="/path-to-image.jpg"
-              alt="Farmer holding crops"
-              className="w-full h-auto rounded-lg shadow-md"
-            />
+          <div className="w-[80%] h-[350px] relative rounded-lg shadow-md">
+  <Image
+    src="/a_pro3.jpeg"
+    alt="Farmer holding crops"
+    layout="fill"
+    objectFit="cover"
+    className="rounded-lg"
+  />
+</div>
+
             
           </div>
         </div>
 
-<div className="flex justify-between px-7">
-        <div className="grid grid-cols-3 gap-12 px-20 py-10">
-          <div className="flex flex-col items-center">
-            <img src="/path-to-icon1.svg" alt="Icon 1" className="mb-6 w-12 h-12" />
+<div className="w-full flex justify-around px-14 relative -top-10">
+        <div className="w-[70%] grid grid-cols-3 gap-12 px-20 py-10">
+          <div className="w-[33%] flex flex-col items-center">
+            <img src="/one.jpeg" alt="Icon 1" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">7,564</h2>
-            <p className="text-gray-600 mt-2">Demonstration Plots Established</p>
+            <p className="text-gray-600 mt-2">Houses build</p>
           </div>
-          <div className="flex flex-col items-center">
-            <img src="/path-to-icon2.svg" alt="Icon 2" className="mb-6 w-12 h-12" />
+          <div className="w-[33%] flex flex-col items-center text-center">
+            <img src="/two.jpeg" alt="Icon 2" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">650k</h2>
-            <p className="text-gray-600 mt-2">Farmers Applying Good Agricultural Practices</p>
+            <p className="text-gray-600 mt-2">Completed roads</p>
           </div>
-          <div className="flex flex-col items-center">
-            <img src="/path-to-icon3.svg" alt="Icon 3" className="mb-6 w-12 h-12" />
+          <div className="w-[33%] flex flex-col items-center">
+            <img src="/three.jpeg" alt="Icon 3" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">424</h2>
             <p className="text-gray-600 mt-2">Public-Private Partnerships Formed</p>
           </div>
         </div>
-        <div className="flex justify-between items-start px-20 py-10 relative -top-28">
-            <div className="max-w-md">
+
+        <div className="w-[30%] flex justify-between items-start px-10 py-10 ">
+            <div className="w-full">
                 <h2 className="text-2xl font-bold">IFDC specializes in:</h2>
                 <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
                 <li>Soil and Fertilizer Research</li>
@@ -74,18 +80,19 @@ const Solutions = () => {
         </p>
 
         <div className="flex flex-col items-center py-8">
-          <img src="/path-to-icon1.svg" alt="Icon 1" className="mb-4 w-12 h-12" />
-          <h2 className="text-4xl font-bold">7,564</h2>
+          <img src="/icon1.svg" alt="Icon 1" className="mb-4 w-12 h-12" />
+          <h2 className="text-2xl font-semibold">7,564</h2>
           <p className="text-gray-600">Demonstration Plots Established</p>
         </div>
+
         <div className="flex flex-col items-center py-8">
-          <img src="/path-to-icon2.svg" alt="Icon 2" className="mb-4 w-12 h-12" />
-          <h2 className="text-4xl font-bold">650k</h2>
+          <img src="/icon2.svg" alt="Icon 2" className="mb-4 w-12 h-12" />
+          <h2 className="text-2xl font-semibold">650k</h2>
           <p className="text-gray-600">Farmers Applying Good Agricultural Practices</p>
         </div>
         <div className="flex flex-col items-center py-8">
-          <img src="/path-to-icon3.svg" alt="Icon 3" className="mb-4 w-12 h-12" />
-          <h2 className="text-4xl font-bold">424</h2>
+          <img src="/icon3.svg" alt="Icon 3" className="mb-4 w-12 h-12" />
+          <h2 className="text-2xl font-semibold">424</h2>
           <p className="text-gray-600">Public-Private Partnerships Formed</p>
         </div>
 

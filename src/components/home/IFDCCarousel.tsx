@@ -7,31 +7,31 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
   {
-    image: '/slide1.jpg',
+    image: '/azim1.jpeg',
     category: 'CATALYZING FARM PRODUCTIVITY',
     date: 'APRIL 2, 2025',
     title: 'ISFM Training in Burkina Faso: A Collaborative Approach to Soil Fertility and Land'
   },
   {
-    image: '/slide2.jpg',
+    image: '/azim2.jpeg',
     category: 'DEVELOPING BETTER TECHNOLOGIES',
     date: 'APRIL 8, 2025',
     title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
   },
   {
-    image: '/slide3.jpg',
+    image: '/azim3.jpeg',
     category: 'DEVELOPING BETTER TECHNOLOGIES',
     date: 'APRIL 8, 2025',
     title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
   },
   {
-    image: '/slide3.jpg',
+    image: '/a_pro1.jpeg',
     category: 'DEVELOPING BETTER TECHNOLOGIES',
     date: 'APRIL 8, 2025',
     title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
   },
   {
-    image: '/slide3.jpg',
+    image: '/a_pro2.jpeg',
     category: 'DEVELOPING BETTER TECHNOLOGIES',
     date: 'APRIL 8, 2025',
     title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
