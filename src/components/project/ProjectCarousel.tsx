@@ -46,10 +46,11 @@ export default function ProjectCarousel() {
   // const [currentIndex, setCurrentIndex] = useState(0);
 
   // const [setCurrentIndex] = useState(0)
-const [currentIndex, setCurrentIndex] = useState(0);
+ const [currentIndex, setCurrentIndex] = useState(0);
 
-    const [showMap, setShowMap] = useState(false);
-    const [openDropdown, setOpenDropdown] = useState(null);
+  const [showMap, setShowMap] = useState(false);
+    // const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
