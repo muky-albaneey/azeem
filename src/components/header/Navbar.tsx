@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Menu, X, ChevronDown, Search } from 'lucide-react';
 
 const topLinks = ['SUBSCRIBE', 'RESOURCES', 'CAREERS'];
-const bottomLinks = ['Solutions', 'Projects', 'News & Events', 'Partnerships', 'About Us'];
+const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/project'}, {name:'News & Events', link:'/news'}, {name:'Partnerships', link:'/partners'}, {name:'About Us', link:'/about'}];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -50,8 +50,8 @@ export default function Navbar() {
         </div>
         <nav className="flex items-center gap-20 text-1xl font-bold text-gray-800">
           {bottomLinks.map(link => (
-            <a key={link} href="#" className="hover:text-green-600">
-              {link}
+            <a key={link.name} href={link.link} className="hover:text-green-600">
+              {link.name}
             </a>
           ))}
         </nav>
