@@ -44,8 +44,10 @@ const dropdownOptions = {
 export default function ProjectCarousel() {
 
   // const [currentIndex, setCurrentIndex] = useState(0);
-  
-  const [setCurrentIndex] = useState(0)
+
+  // const [setCurrentIndex] = useState(0)
+const [currentIndex, setCurrentIndex] = useState(0);
+
     const [showMap, setShowMap] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -177,6 +179,10 @@ export default function ProjectCarousel() {
           </div>
         ))}
       </div>
+       {/* 👇 Add this below the carousel */}
+  <div className="text-center text-sm text-gray-600 mt-2">
+    Showing project {currentIndex + 1} of {projects.length}
+  </div>
     </div>
     </section>
   );
