@@ -1,4 +1,5 @@
-"use client";import { useEffect, useState } from "react";
+"use client";
+import { useEffect, useState } from "react";
 
 export default function StickySubscribe() {
   const [show, setShow] = useState(true);
