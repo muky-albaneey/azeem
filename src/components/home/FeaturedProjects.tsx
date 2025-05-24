@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 // import SearchSection from "./SearchSection";
 
@@ -67,13 +68,26 @@ const FeaturedProjects = () => {
                     index === currentIndex ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
                   }`}
                 >
-                  <div className="flex justify-center lg:justify-end">
+
+            <div className="flex justify-center lg:justify-end">
+              <div className="relative w-full lg:w-3/4 h-64">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="rounded-lg object-cover shadow-md"
+                  sizes="(min-width: 1024px) 75vw, 100vw"
+                />
+              </div>
+            </div>
+
+                  {/* <div className="flex justify-center lg:justify-end">
                     <img
                       src={project.image}
                       alt={project.title}
                       className="rounded-lg w-full lg:w-3/4 shadow-md"
                     />
-                  </div>
+                  </div> */}
                   <div className="lg:pl-8">
                     <p className="text-green-600 font-medium mb-2">{project.country}</p>
                     <h3 className="text-2xl font-bold mb-4">{project.title} →</h3>

@@ -2,10 +2,13 @@
 import { useState } from "react";
 
 const ExploreWork = () => {
-  const [openDropdown, setOpenDropdown] = useState(null);
-  const [selectedCountry, setSelectedCountry] = useState("Country");
-  const [selectedExpertise, setSelectedExpertise] = useState("Expertise");
-  const [selectedStatus, setSelectedStatus] = useState("Status");
+  // const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+
+  const [selectedCountry, setSelectedCountry] = useState<string>("Country");
+const [selectedExpertise, setSelectedExpertise] = useState<string>("Expertise");
+const [selectedStatus, setSelectedStatus] = useState<string>("Status");
+
 
   const countries = [
     "Show All",
@@ -26,11 +29,26 @@ const ExploreWork = () => {
   ];
   const statuses = ["Show All", "Active", "Concluded"];
 
-  const toggleDropdown = (dropdownName) => {
-    setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
-  };
+  // const toggleDropdown = (dropdownName) => {
+  //   setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
+  // };
+const toggleDropdown = (dropdownName: string) => {
+  setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
+};
 
-  const Dropdown = ({ options, selected, onSelect, name }) => (
+
+  // const Dropdown = ({ options, selected, onSelect, name }) => (
+      type DropdownProps = {
+  label: string;
+  options: string[];
+  selected: string;
+  onSelect: (value: string) => void;
+  name: string;
+};
+
+
+      const Dropdown = ({ options, selected, onSelect, name }: DropdownProps) => (
+
   // const Dropdown = ({ label, options, selected, onSelect, name }) => (
     <div className="relative w-full lg:w-64 ">
       <button
