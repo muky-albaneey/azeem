@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Menu, X, ChevronDown, Search } from 'lucide-react';
+import Link from 'next/link';
 
 const topLinks = ['SUBSCRIBE', 'RESOURCES', 'CAREERS'];
 const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/project'}, {name:'News & Events', link:'/news'}, {name:'Partnerships', link:'/partners'}, {name:'About Us', link:'/about'}];
@@ -46,7 +47,9 @@ export default function Navbar() {
       {/* Desktop Bottom Navbar */}
       <div className="hidden lg:flex items-center justify-between py-4">
         <div className="flex items-center space-x-3">
-          <Image src="/next.svg" alt="IFDC Logo" width={160} height={40} />
+          <Link href="/">
+            <Image src="/next.svg" alt="IFDC Logo" width={160} height={40} />
+          </Link>
         </div>
         <nav className="flex items-center gap-20 text-1xl font-bold text-gray-800">
           {bottomLinks.map(link => (
