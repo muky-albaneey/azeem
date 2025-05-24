@@ -30,7 +30,6 @@ const projects = [
     image: "/uganda.jpg",
   },
 ];
-
 const dropdownOptions = {
   Countries: [
     "Show All", "Benin", "Uganda", "Ghana", "Nigeria", "Kenya",
@@ -41,12 +40,17 @@ const dropdownOptions = {
   Status: ["Active", "Completed", "Pipeline"],
 };
 
-type DropdownLabel = keyof typeof dropdownOptions;
 
 export default function ProjectCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // const [currentIndex, setCurrentIndex] = useState(0);
+
+  // const [setCurrentIndex] = useState(0)
+ const [currentIndex, setCurrentIndex] = useState(0);
+
   const [showMap, setShowMap] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState<DropdownLabel | null>(null);
+    // const [openDropdown, setOpenDropdown] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -88,7 +92,7 @@ export default function ProjectCarousel() {
 
   return (
     <section className="py-4 bg-white">
-      <SolutionHeader />
+          <SolutionHeader />
       <h2 className="text-4xl font-bold text-center mb-8">Projects</h2>
 
       <div className="bg-[#e2e0c6] p-4 flex flex-wrap justify-center gap-6 relative">
@@ -112,7 +116,7 @@ export default function ProjectCarousel() {
           <div
             key={label}
             className="relative"
-            onMouseEnter={() => setOpenDropdown(label as DropdownLabel)}
+            onMouseEnter={() => setOpenDropdown(label)}
             onMouseLeave={() => setOpenDropdown(null)}
           >
             <button className="font-semibold text-gray-700">
@@ -120,7 +124,7 @@ export default function ProjectCarousel() {
             </button>
             {openDropdown === label && (
               <div className="absolute z-10 bg-green-500 text-white p-4 grid grid-cols-2 gap-2 mt-2 min-w-max">
-                {dropdownOptions[label as DropdownLabel].map((option) => (
+                {dropdownOptions[label].map((option) => (
                   <div key={option}>{option}</div>
                 ))}
               </div>
@@ -134,52 +138,53 @@ export default function ProjectCarousel() {
           Map Component Placeholder
         </div>
       )}
+    <div className="relative mt-8 px-4">
+      {/* Arrow Buttons */}
+      <button
+        onClick={prev}
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full"
+      >
+        ◀
+      </button>
+      <button
+        onClick={next}
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full"
+      >
+        ▶
+      </button>
 
-      <div className="relative mt-8 px-4">
-        <button
-          onClick={prev}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full"
-        >
-          ◀
-        </button>
-        <button
-          onClick={next}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full"
-        >
-          ▶
-        </button>
-
-        <div
-          ref={scrollRef}
-          className="overflow-x-auto scroll-smooth snap-x snap-mandatory flex gap-6 w-full scrollbar-hide"
-        >
-          {projects.map((proj, idx) => (
-            <div
-              key={idx}
-              className="flex-shrink-0 snap-start w-[300px] md:w-[500px] bg-white rounded shadow p-4 relative"
-            >
-              <div className="border-t-4 border-green-500 pt-2 mb-2 text-sm text-gray-600">
-                {proj.country}
-              </div>
-              <h3 className="font-bold text-lg text-gray-800 mb-2">
-                {proj.title} →
-              </h3>
-              <p className="text-gray-600 text-sm">{proj.description}</p>
-              <Image
-                src={proj.image}
-                alt={proj.country}
-                width={100}
-                height={100}
-                className="absolute top-0 right-0 rounded-md mt-2 mr-2"
-              />
+      {/* Scrollable Carousel */}
+      <div
+        ref={scrollRef}
+        className="overflow-x-auto scroll-smooth snap-x snap-mandatory flex gap-6 w-full scrollbar-hide"
+      >
+        {projects.map((proj, idx) => (
+          <div
+            key={idx}
+            className="flex-shrink-0 snap-start w-[300px] md:w-[500px] bg-white rounded shadow p-4 relative"
+          >
+            <div className="border-t-4 border-green-500 pt-2 mb-2 text-sm text-gray-600">
+              {proj.country}
             </div>
-          ))}
-        </div>
-
-        <div className="text-center text-sm text-gray-600 mt-2">
-          Showing project {currentIndex + 1} of {projects.length}
-        </div>
+            <h3 className="font-bold text-lg text-gray-800 mb-2">
+              {proj.title} →
+            </h3>
+            <p className="text-gray-600 text-sm">{proj.description}</p>
+            <Image
+              src={proj.image}
+              alt={proj.country}
+              width={100}
+              height={100}
+              className="absolute top-0 right-0 rounded-md mt-2 mr-2"
+            />
+          </div>
+        ))}
       </div>
+       {/* 👇 Add this below the carousel */}
+  <div className="text-center text-sm text-gray-600 mt-2">
+    Showing project {currentIndex + 1} of {projects.length}
+  </div>
+    </div>
     </section>
   );
 }
