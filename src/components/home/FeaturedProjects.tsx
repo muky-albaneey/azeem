@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SearchSection from "./SearchSection";
+// import SearchSection from "./SearchSection";
 
 const FeaturedProjects = () => {
   const projects = [

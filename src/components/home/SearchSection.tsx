@@ -1,4 +1,5 @@
-"use client";import { useState } from "react";
+"use client";
+import { useState } from "react";
 
 const ExploreWork = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -29,7 +30,8 @@ const ExploreWork = () => {
     setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
   };
 
-  const Dropdown = ({ label, options, selected, onSelect, name }) => (
+  const Dropdown = ({ options, selected, onSelect, name }) => (
+  // const Dropdown = ({ label, options, selected, onSelect, name }) => (
     <div className="relative w-full lg:w-64 ">
       <button
         onClick={() => toggleDropdown(name)}

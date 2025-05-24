@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
-import StickySubscribe from '../StickySubscribe';
+// import StickySubscribe from '../StickySubscribe';
 
 export default function Footer() {
   return (

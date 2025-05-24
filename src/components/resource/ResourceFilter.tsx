@@ -1,4 +1,6 @@
-"use client";import { useState } from "react";
+"use client";
+import { useState } from "react";
+import Image from "next/image";
 
 const data = [
     {
@@ -195,11 +197,20 @@ export default function ResourceFilter() {
             key={index}
             className="border rounded-lg overflow-hidden shadow-md"
           >
-            <img
+            {/* <img
               src={item.image}
               alt={item.title}
               className="h-40 w-full object-cover"
+            /> */}
+            <div className="relative h-40 w-full">
+            <Image
+              src={item.image}
+              alt={item.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
+          </div>
             <div className="p-4">
               <p className="text-sm text-gray-500">
                 {item.category} | {item.expertise} | {item.country}
