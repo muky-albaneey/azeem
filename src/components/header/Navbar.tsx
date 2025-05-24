@@ -98,12 +98,19 @@ export default function Navbar() {
             <>
               {/* Bottom Nav */}
               <nav className="space-y-6 text-lg font-semibold text-gray-800">
-                {bottomLinks.map(link => (
+                {/* {bottomLinks.map(link => (
                   <div key={link} className="flex items-center justify-between">
                     <a href="#" className="hover:text-green-600">{link}</a>
                     <ChevronDown className="w-5 h-5 text-gray-600" />
                   </div>
-                ))}
+                ))} */}
+                {bottomLinks.map(link => (
+                <div key={link.name} className="flex items-center justify-between">
+                  <a href={link.link} className="hover:text-green-600">{link.name}</a>
+                  <ChevronDown className="w-5 h-5 text-gray-600" />
+                </div>
+              ))}
+
               </nav>
 
               {/* Top Nav Items */}
