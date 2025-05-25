@@ -9,25 +9,25 @@ const projects = [
     title: "Communal Approach to the Agricultural Market in Benin – Phase 3 (ACMA3)",
     description: "Phase 3 of the ACMA3 project (2022-2027)...",
     country: "Benin",
-    image: "/benin.jpg",
+    image: "/a_pro1.jpeg",
   },
   {
     title: "Building Resilience... (BRIGHT)",
     description: "BRIGHT is building resilience of 100,000 highland farm households in Uganda...",
     country: "Uganda",
-    image: "/uganda.jpg",
+    image: "/azim2.jpeg",
   },
   {
     title: "Creating Resilience... (BRIGHT)",
     description: "BRIGHT is building resilience of 100,000 highland farm households in Uganda...",
     country: "Uganda",
-    image: "/uganda.jpg",
+    image: "/azim3.jpeg",
   },
   {
     title: "Generating Resilience... (BRIGHT)",
     description: "BRIGHT is building resilience of 100,000 highland farm households in Uganda...",
     country: "Uganda",
-    image: "/uganda.jpg",
+    image: "/three.jpeg",
   },
 ];
 
