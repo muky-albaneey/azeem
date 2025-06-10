@@ -62,9 +62,9 @@ export default function StickySubscribe() {
 
   return (
     show && (
-      <div className="sticky bottom-0 z-50 bg-[#78C043] flex flex-col md:flex-row items-center justify-between px-6 py-4 text-gray-900 font-bold text-xl">
+      <div className="sticky bottom-0 z-50 bg-[#050d54] flex flex-col md:flex-row items-center justify-between px-6 py-4 text-white font-bold text-xl">
         <span>Subscribe for Updates</span>
-        <button className="mt-2 md:mt-0 border-2 border-white px-6 py-2 rounded-sm hover:bg-white hover:text-[#78C043] transition">
+        <button className="mt-2 md:mt-0 border-2 border-white px-6 py-2 rounded-sm hover:bg-white hover:text-[#1D267D] transition">
           Sign up
         </button>
       </div>

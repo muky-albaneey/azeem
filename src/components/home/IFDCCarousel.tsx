@@ -71,15 +71,15 @@ export default function IFDCCarousel() {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-white bg-opacity-80 px-6 py-4 lg:px-12 lg:py-6 max-w-3xl text-center"
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-white bg-opacity-80 px-6 py-4 lg:px-12 lg:py-6 max-w-3xl text-center text-[#393E46]"
           >
-            <p className="text-xs lg:text-sm font-bold text-gray-800 uppercase">
+            <p className="text-xs lg:text-sm font-bold text-[#393E46] uppercase">
               {slides[currentSlide].category}
             </p>
-            <p className="text-green-600 text-sm lg:text-base font-semibold mt-1">
+            <p className="text-[#1D267D] text-sm lg:text-base font-semibold mt-1">
               {slides[currentSlide].date}
             </p>
-            <h2 className="text-xl lg:text-3xl font-semibold text-gray-900 mt-2">
+            <h2 className="text-xl lg:text-3xl font-semibold text-[#393E46]  mt-2">
               {slides[currentSlide].title}
             </h2>
           </motion.div>
@@ -91,13 +91,13 @@ export default function IFDCCarousel() {
         onClick={prevSlide}
         className="absolute top-1/2 left-4 -translate-y-1/2 bg-white rounded-full p-2 shadow-md"
       >
-        <ChevronLeft className="text-green-600 w-6 h-6" />
+        <ChevronLeft className="text-[#1D267D] w-6 h-6" />
       </button>
       <button
         onClick={nextSlide}
         className="absolute top-1/2 right-4 -translate-y-1/2 bg-white rounded-full p-2 shadow-md"
       >
-        <ChevronRight className="text-green-600 w-6 h-6" />
+        <ChevronRight className="text-[#1D267D] w-6 h-6" />
       </button>
 
       {/* Dots */}
@@ -106,8 +106,8 @@ export default function IFDCCarousel() {
   <button
     key={idx}
     onClick={() => setCurrentSlide(idx)}
-    className={`w-3 h-3 rounded-full border border-gray-500 transition-colors duration-300 ${
-      currentSlide === idx ? 'bg-green-600' : 'bg-white'
+    className={`w-3 h-3 rounded-full border border-[#393E46] transition-colors duration-300 ${
+      currentSlide === idx ? 'bg-[#1D267D]' : 'bg-white'
     }`}
     aria-label={`Go to slide ${idx + 1}`}
   ></button>

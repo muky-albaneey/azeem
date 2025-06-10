@@ -14,7 +14,7 @@ export default function HomeAboutUs() {
           </p>
           <a
             href="#"
-            className="inline-block text-lg font-medium text-gray-900 underline decoration-yellow-400 decoration-4 mt-10">
+            className="inline-block text-lg font-medium text-gray-900 underline decoration-[#D4ADFC] decoration-4 mt-10">
             Learn more about IFDC
           </a>
         </div>
@@ -30,7 +30,7 @@ export default function HomeAboutUs() {
 
 <a
             href="#"
-            className="inline-block text-lg font-medium text-gray-900 underline decoration-yellow-400 decoration-4">
+            className="inline-block text-lg font-medium text-gray-900 underline decoration-[#D4ADFC] decoration-4">
             Meet Our Team
           </a>
         </div>

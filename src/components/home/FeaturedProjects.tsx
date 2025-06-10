@@ -52,7 +52,7 @@ const FeaturedProjects = () => {
           for soil and plant nutrition that benefit farmers, entrepreneurs, and the environment.
         </p>
         <div className="text-right mb-6">
-          <button className="text-yellow-600 font-medium underline">View all</button>
+          <button className="text-[#D4ADFC] font-medium underline">View all</button>
         </div>
 
         <div className="relative">
@@ -89,7 +89,7 @@ const FeaturedProjects = () => {
                     />
                   </div> */}
                   <div className="lg:pl-8">
-                    <p className="text-green-600 font-medium mb-2">{project.country}</p>
+                    <p className="text-[#1D267D] font-medium mb-2">{project.country}</p>
                     <h3 className="text-2xl font-bold mb-4">{project.title} →</h3>
                     <p className="text-gray-600 mb-6">{project.description}</p>
                   </div>
@@ -129,7 +129,7 @@ const FeaturedProjects = () => {
       <button
         key={index}
         className={`w-3 h-3 rounded-full ${
-          index === currentIndex ? "bg-green-500" : "bg-gray-300"
+          index === currentIndex ? "bg-[#1D267D]" : "bg-gray-300"
         }`}
         onClick={() => setCurrentIndex(index)}
       ></button>

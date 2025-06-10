@@ -35,7 +35,7 @@ export default function NewsEvents() {
                 layout="fill"
                 objectFit="cover"
               />
-              <div className="absolute top-0 left-0 h-full w-1 bg-orange-500" />
+              <div className="absolute top-0 left-0 h-full w-1 bg-[#D4ADFC]" />
             </div>
             <div className="p-6">
               <p className="text-sm text-gray-600">
@@ -44,7 +44,7 @@ export default function NewsEvents() {
               <h3 className="mt-2 font-bold text-lg text-gray-900 leading-snug">
                 {item.title}
               </h3>
-              <div className="mt-4 text-orange-600 font-semibold flex items-center gap-2">
+              <div className="mt-4 text-[#D4ADFC] font-semibold flex items-center gap-2">
                 <span className="text-xl">→</span>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function NewsEvents() {
         ))}
       </div>
       <h5 className='text-center underline'>View all News & Events</h5>
-      <div className="fixed top-1/2 right-0 transform -translate-y-1/2 rotate-180 bg-green-500 text-white px-3 py-1 font-bold text-sm cursor-pointer">
+      <div className="fixed top-1/2 right-0 transform -translate-y-1/2 rotate-180 bg-[#1D267D] text-white px-3 py-1 font-bold text-sm cursor-pointer">
         Share
       </div>
     </section>

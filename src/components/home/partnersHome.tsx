@@ -83,7 +83,7 @@ const PartnerCarousel = () => {
             {/* <div className="absolute inset-0 bg-green-600 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
               <p className="text-white text-center text-sm font-medium">{partner.description}</p>
             </div> */}
-            <div className="absolute inset-0 bg-green-600 bg-opacity-90 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <div className="absolute inset-0 bg-[#1D267D] bg-opacity-90 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
   <p className="text-white text-center text-sm font-medium">{partner.description}</p>
 </div>
 
@@ -96,7 +96,7 @@ const PartnerCarousel = () => {
           <span
             key={i}
             className={`h-3 w-3 rounded-full cursor-pointer ${
-              i === currentIndex ? "bg-green-500" : "bg-gray-300"
+              i === currentIndex ? "bg-[#1D267D]" : "bg-gray-300"
             }`}
             onClick={() => setCurrentIndex(i)}
           ></span>

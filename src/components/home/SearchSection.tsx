@@ -123,7 +123,7 @@ const toggleDropdown = (dropdownName: string) => {
       />
 
       {/* Search Button */}
-      <button className="p-2 bg-green-500 text-white rounded-md font-semibold hover:bg-green-600">
+      <button className="p-2 bg-[#1D267D] text-white rounded-md font-semibold hover:bg-green-600">
         Search
       </button>
     

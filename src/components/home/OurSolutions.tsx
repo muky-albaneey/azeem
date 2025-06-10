@@ -8,7 +8,7 @@ const Solutions = () => {
         <div className="flex justify-between items-start px-20 py-16">
           <div className="max-w-lg">
             <h1 className="text-5xl font-bold">Our Solutions</h1>
-            <p className="text-lg text-gray-700 mt-6 leading-relaxed">
+            <p className="text-lg text-[#393E46]0 mt-6 leading-relaxed">
               IFDC believes the key to global food security starts with the soil and ends at the supermarket. We strive to develop better fertilizer and production technologies, transfer these improved technologies to smallholder farmers, and connect these farmers to efficient and profitable markets. By working with strategic partners, we build local capacity and ensure sustainable impact.
             </p>
           </div>
@@ -32,17 +32,17 @@ const Solutions = () => {
           <div className="w-[33%] flex flex-col items-center">
             <img src="/one.jpeg" alt="Icon 1" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">7,564</h2>
-            <p className="text-gray-600 mt-2">Houses build</p>
+            <p className="text-[#393E46] mt-2">Houses build</p>
           </div>
           <div className="w-[33%] flex flex-col items-center text-center">
             <img src="/two.jpeg" alt="Icon 2" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">650k</h2>
-            <p className="text-gray-600 mt-2">Completed roads</p>
+            <p className="text-[#393E46] mt-2">Completed roads</p>
           </div>
           <div className="w-[33%] flex flex-col items-center">
             <img src="/three.jpeg" alt="Icon 3" className="mb-6 w-12 h-12" />
             <h2 className="text-4xl font-bold">424</h2>
-            <p className="text-gray-600 mt-2">Public-Private Partnerships Formed</p>
+            <p className="text-[#393E46] mt-2">Public-Private Partnerships Formed</p>
           </div>
         </div>
 
@@ -63,11 +63,11 @@ const Solutions = () => {
 
       <div className="flex justify-around px-7">
       <div className="text-center py-10">
-          <button className="text-lg font-semibold text-yellow-600 underline">Explore Our Solutions</button>
+          <button className="text-lg font-semibold text-[#D4ADFC] underline">Explore Our Solutions</button>
         </div>
 
         <div className="text-center py-10">
-          <button className="text-lg font-semibold text-yellow-600 underline">Our Approach</button>
+          <button className="text-lg font-semibold text-[#D4ADFC] underline">Our Approach</button>
         </div>
       </div>
       </div>
