@@ -26,7 +26,7 @@ export default function AboutUsPage() {
       </div>
 
       {/* Intro Section */}
-      <div className="max-w-[40%] mx-auto px-4 py-10 text-left">
+      <div className="w-[100%] md:w-[40%] mx-auto px-4 py-10 text-left">
         <p className="text-sm md:text-base">
           IFDC is an independent non-profit organization that combines innovative research, market systems development, and strategic partnerships to spread
           sustainable agricultural solutions for improved soil health, food security, and livelihoods around the world.
@@ -58,7 +58,7 @@ export default function AboutUsPage() {
 
       {/* Global Strategy Section */}
       <div className="bg-white py-16">
-        <div className="max-w-[40%] mx-auto px-4 space-y-8 text-center md:text-left">
+        <div className="w-[100%] md:w-[40%] mx-auto px-4 space-y-8 text-center md:text-left">
           <p className="text-sm">
             Over the coming decades, global population growth will drive a substantial increase in demand for food, energy, and water. The largest share of this
             demand will come from developing countries. These trends bring new and urgent challenges as a historic transformation unfolds in global agriculture.
