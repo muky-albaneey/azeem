@@ -562,7 +562,7 @@ export default function ProjectsPage() {
     <section className="py-16 bg-white">
   <div className="max-w-4xl mx-auto px-6 text-center">
     <h2 className="text-4xl font-bold text-gray-800 mb-10">
-      Let's partner together to increase food security and sustainability
+      Let&apos;s partner together to increase food security and sustainability
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 text-left">

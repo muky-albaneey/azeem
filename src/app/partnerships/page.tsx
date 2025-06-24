@@ -127,7 +127,7 @@ export default function PartnershipsPage() {
           <p className="text-gray-600 leading-relaxed mb-8">
             We work closely with partners large and small to design and implement a wide 
             variety of innovative products, development projects, and initiatives. We also 
-            work to increase our partners' capacities through training and mentoring to 
+            work to increase our partner&apos;s capacities through training and mentoring to 
             support sustainable food systems — from the lab to the consumer.
           </p>
           
@@ -176,7 +176,7 @@ export default function PartnershipsPage() {
           
           <div className="mt-12 text-center">
             <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              We work closely with partners large and small to design and implement a wide variety of innovative products, development projects, and initiatives. We also work to increase our partners' capacities through training and mentoring to support sustainable food systems — from the lab to the consumer.
+              We work closely with partners large and small to design and implement a wide variety of innovative products, development projects, and initiatives. We also work to increase our partner&apos;s capacities through training and mentoring to support sustainable food systems — from the lab to the consumer.
             </p>
           </div>
         </div>
@@ -466,7 +466,7 @@ export default function PartnershipsPage() {
                     <div className="flex items-center space-x-2">
                       <Checkbox id="captcha" />
                       <Label htmlFor="captcha" className="text-sm text-gray-700">
-                        I'm not a robot
+                        I&apos;m not a robot
                       </Label>
                     </div>
                   </div>
@@ -485,12 +485,7 @@ export default function PartnershipsPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-lg">&copy; 2024 IFDC. All rights reserved.</p>
-        </div>
-      </footer>
+      
     </div>
   );
 }
