@@ -254,7 +254,7 @@ export default function ProjectsPage() {
     year: false,
     status: false
   });
-  const sliderRef = useRef<HTMLDivElement>(null);
+  // const sliderRef = useRef<HTMLDivElement>(null);
 
   const allProjects = [...projects, ...additionalProjects, ...yellowCardProjects];
   const projectsPerSlide = 4;

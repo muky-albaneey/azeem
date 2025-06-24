@@ -264,8 +264,9 @@ export default function SubscribePage() {
                     <div className="flex items-center space-x-2">
                       <Checkbox id="captcha" />
                       <Label htmlFor="captcha" className="text-sm text-gray-700">
-                        I'm not a robot
-                      </Label>
+  I&apos;m not a robot
+</Label>
+
                     </div>
                   </div>
                 </div>

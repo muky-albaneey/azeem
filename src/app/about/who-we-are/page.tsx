@@ -1,5 +1,5 @@
 import AboutHeader from "@/components/about/AboutHeader";
-import Navigation from "@/components/navigation";
+// import Navigation from "@/components/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Globe, Award, Target } from "lucide-react";
 // import Navigation from "@/components/navigation";

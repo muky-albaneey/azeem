@@ -1,5 +1,5 @@
 import AboutHeader from "@/components/about/AboutHeader";
-import Navigation from "@/components/navigation";
+// import Navigation from "@/components/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, FlaskConical, TrendingUp, Network, BookOpen, Handshake } from "lucide-react";
 // import Navigation from "@/components/navigation";
