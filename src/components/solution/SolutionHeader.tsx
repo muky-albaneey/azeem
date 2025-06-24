@@ -7,8 +7,8 @@ export default function SolutionHeader() {
             <a href="/solution/approach" className="hover:underline">Our Approach</a>
             <a href="/solution/impact" className="hover:underline">Our Impact</a>
             <a href="/solution/research" className="hover:underline">Our Research</a>
-            <a href="#" className="hover:underline">Strategy 2020–2030</a>
-            <a href="#" className="hover:underline">Fertilizer FAQs</a>
+            {/* <a href="#" className="hover:underline">Strategy 2020–2030</a>
+            <a href="#" className="hover:underline">Fertilizer FAQs</a> */}
           </div>
         </header>
   )
