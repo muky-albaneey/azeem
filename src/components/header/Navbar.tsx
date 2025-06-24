@@ -6,7 +6,7 @@ import { Menu, X, ChevronDown, Search } from 'lucide-react';
 import Link from 'next/link';
 
 const topLinks = ['SUBSCRIBE', 'RESOURCES', 'CAREERS'];
-const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/project'}, {name:'News & Events', link:'/news'}, {name:'Partnerships', link:'/partners'}, {name:'About Us', link:'/about'}];
+const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/projects'}, {name:'News & Events', link:'/news-events'}, {name:'Partnerships', link:'/partnerships'}, {name:'About Us', link:'/about'}];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);

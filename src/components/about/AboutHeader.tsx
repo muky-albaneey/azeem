@@ -7,7 +7,7 @@ export default function AboutHeader() {
             <a href="/about/who-we-are" className="hover:underline">Who we are</a>
             <a href="/about/what-we-do" className="hover:underline">what we do</a>
             <a href="/about/team" className="hover:underline">Our Team</a>
-            <a href="#" className="hover:underline">Our Board of Directors</a>
+            <a href="/about/board" className="hover:underline">Our Board of Directors</a>
             <a href="/about/history" className="hover:underline">Our History</a>
           </div>
         </header>

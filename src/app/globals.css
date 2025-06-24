@@ -144,3 +144,6 @@
     @apply bg-background text-foreground;
   }
 }
+html {
+  overflow-y: scroll; /* Force scrollbar even when not needed */
+}
