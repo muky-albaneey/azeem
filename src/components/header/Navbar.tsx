@@ -5,7 +5,11 @@ import Image from 'next/image';
 import { Menu, X, ChevronDown, Search } from 'lucide-react';
 import Link from 'next/link';
 
-const topLinks = ['SUBSCRIBE', 'RESOURCES', 'CAREERS'];
+const topLinks = [
+  { name: 'SUBSCRIBE', link: '/subscribe' },
+  { name: 'RESOURCES', link: '/resources' },
+  { name: 'CAREERS', link: '/careers' }
+];
 const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/projects'}, {name:'News & Events', link:'/news-events'}, {name:'Partnerships', link:'/partnerships'}, {name:'About Us', link:'/about'}];
 
 export default function Navbar() {
@@ -17,14 +21,25 @@ export default function Navbar() {
       {/* Desktop Top Navbar */}
       <div className="hidden lg:flex items-center justify-end px-8 py-3 space-x-6 text-sm font-semibold text-gray-700 relative">
         {topLinks.map(link => (
-          <a key={link} href="#" className="hover:text-green-600">
-            {link}
-          </a>
-        ))}
-        <div className="flex items-center space-x-1 cursor-pointer hover:text-green-600">
-          <span>ENGLISH</span>
-          <ChevronDown className="w-4 h-4" />
-        </div>
+  <Link key={link.name} href={link.link} className="hover:text-green-600">
+    {link.name}
+  </Link>
+))}
+
+        <div className="flex items-center justify-between">
+  <select
+  className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 hover:text-green-600 focus:outline-none focus:ring focus:ring-green-300"
+  defaultValue="EN"
+>
+  <option value="EN">English</option>
+  <option value="FR">Français</option>
+  <option value="ES">Español</option>
+  <option value="AR">العربية</option>
+  <option value="PT">Português</option>
+</select>
+
+</div>
+
 
         {showSearch && (
           <div className="flex items-center space-x-2">
@@ -126,12 +141,26 @@ export default function Navbar() {
                   <Search className="w-5 h-5 text-gray-600" />
                 </div>
                 {topLinks.map(link => (
-                  <div key={link}>{link}</div>
-                ))}
-                <div className="flex items-center justify-between">
-                  <span>ENGLISH</span>
-                  <ChevronDown className="w-4 h-4 text-gray-600" />
-                </div>
+  <Link key={link.name} href={link.link} className="block hover:text-green-600">
+    {link.name}
+  </Link>
+))}
+
+               <div className="flex items-center justify-between">
+  <label htmlFor="language-select" className="text-sm">Language</label>
+  <select
+    id="language-select"
+    className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 focus:outline-none focus:ring focus:ring-green-300"
+    defaultValue="EN"
+  >
+    <option value="EN">English</option>
+    <option value="FR">Français</option>
+    <option value="ES">Español</option>
+    <option value="AR">العربية</option>
+    <option value="PT">Português</option>
+  </select>
+</div>
+
               </div>
             </>
           )}
