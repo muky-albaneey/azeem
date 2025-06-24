@@ -35,7 +35,7 @@ export default function HistoryPage() {
             <div className="space-y-6">
               <p className="text-gray-700 leading-relaxed text-lg">
                 Since 1974, IFDC has played a critical role in the development and transfer of affordable, 
-                effective fertilizer technologies around the world. IFDC's contributions span a wide 
+                effective fertilizer technologies around the world. IFDC&apos;s contributions span a wide 
                 spectrum of research and development work, including production process research, 
                 applied research on soil systems, development of innovative fertilizer products and 
                 application technologies, market systems development to strengthen input and output 
@@ -83,11 +83,11 @@ export default function HistoryPage() {
                   development for smallholder farmers.
                 </p>
                 <p className="mb-4">
-                  Read about the collective efforts of IFDC's team, partners, and supporters, through 
-                  the organization's first 40 years of impact.
+                  Read about the collective efforts of IFDC&apos;s team, partners, and supporters, through 
+                  the organization&apos;s first 40 years of impact.
                 </p>
                 <p className="text-green-600 font-semibold">
-                  Feeding a Hungry World: IFDC's First Forty Years
+                  Feeding a Hungry World: IFDC&apos;s First Forty Years
                 </p>
               </div>
             </div>

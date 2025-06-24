@@ -142,7 +142,7 @@ export default function WhatWeDoPage() {
               <div className="space-y-6 order-1 lg:order-2">
                 <h3 className="text-3xl font-bold text-gray-800">Soil Health Assessment</h3>
                 <p className="text-gray-700 leading-relaxed text-lg">
-                  Our comprehensive soil health programs help farmers understand their soil's 
+                  Our comprehensive soil health programs help farmers understand their soil&apos;s 
                   nutrient status and develop targeted fertilization strategies. We provide 
                   soil testing services, mapping, and recommendations for improved soil management.
                 </p>
