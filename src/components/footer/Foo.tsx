@@ -18,7 +18,7 @@ export default function Footer() {
 
 
       {/* Footer Section */}
-      <footer className="bg-[#484751] text-white px-6 md:px-20 py-10">
+      <footer className="bg-[#0C0950] text-white px-6 md:px-20 py-10">
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-10">
           {/* Logo and Address */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
