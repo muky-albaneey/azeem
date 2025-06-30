@@ -51,9 +51,7 @@ At Azim Development Company Limited, we take a strategic, impact-driven approach
 Through strong partnerships, innovative technologies, and sustainable practices, we design and deliver infrastructure that meets international standards while addressing Africa’s local needs. Our work is guided by a commitment to economic growth, environmental responsibility, and transformative impact across every sector we serve.
 
                 </p>
-                {/* <p>
-                To solve these problems, IFDC takes the unique approach of engaging the entire discovery-to-consumer continuum. By bridging the traditional gaps between research, technology dissemination, and market systems, we and our partners innovate, achieve results, and sustain impact at scale.
-                </p> */}
+               
                 <h2 className="text-2xl font-bold">How We Do It</h2>
                 <p>
                Every project begins with deep market research, stakeholder engagement, and feasibility studies. We align our strategies with both national development goals and real community needs, ensuring relevance and sustainability from day one.
@@ -79,7 +77,7 @@ Through strong partnerships, innovative technologies, and sustainable practices,
 
         </section>
        {/* Strategic Partnerships */}
-      <div className="bg-[#faf9f5] px-4 md:px-16 py-16">
+      <div className="bg-[#0C134F] px-4 md:px-16 py-16">
         <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
           <div className="w-full md:w-2/3">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">

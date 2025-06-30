@@ -24,9 +24,9 @@ const FeaturedProjects = () => {
     {
       id: 3,
       country: "Nigeria, Ghana, Senegal",
-      title: "Crop Growth Program",
+      title: "Nigeria Affordable Mass Housing Programme (NAMHP)",
       description:
-        "Crop Growth Program focuses on enhancing crop productivity in a sustainable manner, involving new irrigation techniques and better seed distribution systems.",
+        "A nationwide initiative providing safe, modern, and affordable housing for low- and middle-income earners, reducing Nigeria's housing deficit.Building on the success of NAMHP, the programme will be replicated in other African countries facing similar housing challenges. By partnering with local governments and private sector stakeholders, we aim to develop affordable housing solutions tailored to the unique needs of each country, fostering urban development and improving living standards across the continent.",
       image: "/images/project3.jpg",
     },
   ];
