@@ -8,7 +8,7 @@ import Link from 'next/link';
 const topLinks = [
   { name: 'SUBSCRIBE', link: '/subscribe' },
   { name: 'RESOURCES', link: '/resources' },
-  { name: 'CAREERS', link: '/careers' }
+  { name: 'Programs', link: '/careers' }
 ];
 const bottomLinks = [{name:'Solutions', link:'/solution'}, {name:'Projects',link:'/projects'}, {name:'News & Events', link:'/news-events'}, {name:'Partnerships', link:'/partnerships'}, {name:'About Us', link:'/about'}];
 
