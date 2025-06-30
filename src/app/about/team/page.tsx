@@ -287,8 +287,8 @@ export default function TeamPage() {
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">Our Team</h1>
           <div className="max-w-2xl mx-auto">
             <p className="text-lg md:text-xl text-white drop-shadow-md leading-relaxed mb-4">
-              Our team of scientists, agricultural experts, economists, and more make achieving our vision possible. 
-              At IFPDC, we value teamwork and collaboration. Without these, we simply cannot tackle the challenges that lay ahead of us.
+             Our team of engineers, architects, project managers, and skilled builders make our vision a reality.
+At Azim Construction Company, we value collaboration and precision—because without strong teamwork, we cannot overcome the complex challenges of modern infrastructure development.
             </p>
             <p className="text-lg text-white drop-shadow-md">
               View our <span className="text-primary font-semibold">organizational chart</span>.
