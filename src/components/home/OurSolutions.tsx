@@ -67,7 +67,7 @@ const Solutions = () => {
     };
   }, []);
 
-  const formatNumber = (num) =>
+  const formatNumber = (num:number) =>
     num >= 1000 ? num.toLocaleString("en-US") : num;
 
   return (
