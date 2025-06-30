@@ -8,14 +8,12 @@ export default function HomeAboutUs() {
         <div className="w-1/2">
           <h1 className="text-4xl font-bold mb-4">About Us</h1>
           <p className="text-lg text-gray-700 mb-4">
-            We are scientists, development professionals, and community members dedicated to scientific innovations that
-            increase global food production, protect the environment, and empower smallholder farmers. Since 1974, we
-            have worked in more than 100 countries to improve food security from right where it all starts: the soil.
+            Azim Development Company Ltd is a fast-growing, multi-sector company based in Abuja, Nigeria, with a footprint across Africa. We deliver innovative, sustainable solutions in real estate, energy, construction, transport, telecoms, agriculture, and mining—transforming communities and driving economic growth beyond oil
           </p>
           <a
-            href="#"
+            href="/about"
             className="inline-block text-lg font-medium text-gray-900 underline decoration-[#D4ADFC] decoration-4 mt-10">
-            Learn more about IFDC
+            Learn more about Azimco
           </a>
         </div>
         <div className="w-1/2 flex flex-col items-end">

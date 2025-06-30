@@ -42,7 +42,7 @@ export default function PrinciplesAndValues() {
               <p className="text-gray-700 text-lg mb-4">
                 IFDC partners with international research institutions, governments, and non-governmental organizations to reduce hunger, improve soil processes, and promote food nutrition security.
               </p>
-              <a href="#" className="text-yellow-500 font-medium underline">A Range of Partners</a>
+              <a href="#" className="text-[#D4ADFC] font-medium underline">A Range of Partners</a>
             </div>
             <Image src="/a_pro1.jpeg" alt="Initiatives" width={400} height={300} className="rounded" />
           </div>
@@ -57,7 +57,7 @@ export default function PrinciplesAndValues() {
               <p className="text-gray-700 text-lg mb-4">
                 Our team of scientists, agricultural experts, economists, and more make achieving our vision possible.
               </p>
-              <a href="#" className="text-yellow-500 font-medium underline">Meet Our Team</a>
+              <a href="#" className="text-[#D4ADFC] font-medium underline">Meet Our Team</a>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function PrinciplesAndValues() {
               <p className="text-gray-700 text-lg mb-4">
                 IFDC is a public international organization governed by a board of directors with global representation.
               </p>
-              <a href="#" className="text-yellow-500 font-medium underline">Meet Our Board Members</a>
+              <a href="#" className="text-[#D4ADFC] font-medium underline">Meet Our Board Members</a>
             </div>
             <Image src="/azim1.jpeg" alt="Board" width={400} height={300} className="rounded" />
           </div>
@@ -85,7 +85,7 @@ export default function PrinciplesAndValues() {
               <p className="text-gray-700 text-lg mb-4">
                 View our interactive timeline to learn more about IFDC’s 45-year history.
               </p>
-              <a href="#" className="text-yellow-500 font-medium underline">Explore Our History</a>
+              <a href="#" className="text-[#D4ADFC] font-medium underline">Explore Our History</a>
             </div>
           </div>
         </div>
