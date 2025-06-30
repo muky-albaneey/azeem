@@ -1,6 +1,6 @@
 import AboutHeader from "@/components/about/AboutHeader";
 import { Card, CardContent } from "@/components/ui/card";
-import { Leaf, FlaskConical, TrendingUp, Network, BookOpen, Handshake } from "lucide-react";
+// import { Leaf, FlaskConical, TrendingUp, Network, BookOpen, Handshake } from "lucide-react";
 
 export default function WhatWeDoPage() {
   return (

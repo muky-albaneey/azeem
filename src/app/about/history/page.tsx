@@ -1,6 +1,6 @@
 import AboutHeader from "@/components/about/AboutHeader";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
+// import { ArrowRight } from "lucide-react";
 
 export default function HistoryPage() {
   return (
