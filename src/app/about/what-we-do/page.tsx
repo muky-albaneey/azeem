@@ -28,9 +28,9 @@ export default function WhatWeDoPage() {
         {/* Content */}
         <div className="relative z-10 text-center px-6">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">What We Do</h1>
-          <p className="text-xl md:text-2xl text-white drop-shadow-md max-w-3xl mx-auto leading-relaxed">
+          {/* <p className="text-xl md:text-2xl text-white drop-shadow-md max-w-3xl mx-auto leading-relaxed">
             Transforming agriculture through innovative fertilizer technologies and sustainable solutions
-          </p>
+          </p> */}
         </div>
       </section>
 

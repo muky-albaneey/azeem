@@ -17,7 +17,7 @@ const data = [
     country: "Global",
     title: "Protected: Digging Deeper: Soil Health as the Game Changer for Poverty Reduction",
     date: "May 9, 2025",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Reports",
@@ -25,7 +25,7 @@ const data = [
     country: "West Africa",
     title: "West Africa Fertilizer Business Information Guide: Second Edition (2022)",
     date: "March 10, 2022",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Reports",
@@ -33,7 +33,7 @@ const data = [
     country: "West Africa",
     title: "Existing and Potential Business Models on Last Mile Delivery of Seeds",
     date: "August 21, 2021",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Briefs",
@@ -41,7 +41,7 @@ const data = [
     country: "East Africa",
     title: "Improving Access to Inputs for Smallholder Farmers in Uganda",
     date: "January 5, 2023",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Studies",
@@ -49,7 +49,7 @@ const data = [
     country: "Global",
     title: "The Role of Government in Fertilizer Subsidy Programs",
     date: "November 14, 2021",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Reports",
@@ -57,7 +57,7 @@ const data = [
     country: "Southern Africa",
     title: "Climate-Smart Agriculture: Adoption Trends and Impacts",
     date: "July 8, 2022",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Papers",
@@ -65,7 +65,7 @@ const data = [
     country: "Central Africa",
     title: "Case Studies on Fertilizer Efficiency for Cassava and Maize",
     date: "April 3, 2023",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Briefs",
@@ -73,7 +73,7 @@ const data = [
     country: "West Africa",
     title: "Using Mobile Platforms to Increase Farmer Awareness",
     date: "October 12, 2021",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Reports",
@@ -81,7 +81,7 @@ const data = [
     country: "North Africa",
     title: "Fertilizer Market Outlook and Price Trends (2023)",
     date: "February 18, 2023",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Studies",
@@ -105,7 +105,7 @@ const data = [
     country: "East Africa",
     title: "Public-Private Partnerships in Agricultural Inputs",
     date: "September 19, 2022",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Briefs",
@@ -113,7 +113,7 @@ const data = [
     country: "Global",
     title: "Best Practices for Maintaining Soil Organic Matter",
     date: "December 2, 2023",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Studies",
@@ -121,7 +121,7 @@ const data = [
     country: "Central Africa",
     title: "Adoption Barriers to Improved Fertilizer Use",
     date: "May 15, 2024",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
   {
     category: "Reports",
@@ -129,7 +129,7 @@ const data = [
     country: "West Africa",
     title: "AI and Data Analytics in Fertilizer Distribution",
     date: "August 11, 2022",
-    image: "https://via.placeholder.com/150",
+    image: "/a.png",
   },
 ];
 
@@ -205,13 +205,22 @@ export default function ResourceFilter() {
             className="border rounded-lg overflow-hidden shadow-md"
           >
             <div className="relative h-40 w-full">
-              <Image
-                src={item.image}
-                alt={item.title}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 33vw"
-              />
+              {item.image.startsWith("http") ? (
+  <img
+    src={item.image}
+    alt={item.title}
+    className="object-cover w-full h-full"
+  />
+) : (
+  <Image
+    src={item.image}
+    alt={item.title}
+    fill
+    className="object-cover"
+    sizes="(max-width: 768px) 100vw, 33vw"
+  />
+)}
+
             </div>
             <div className="p-4">
               <p className="text-sm text-gray-500">

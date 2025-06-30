@@ -63,7 +63,7 @@ export default function Navbar() {
       <div className="hidden lg:flex items-center justify-between py-4">
         <div className="flex items-center space-x-3">
           <Link href="/">
-            <Image src="/next.svg" alt="IFDC Logo" width={160} height={40} />
+            <Image src="/azimlogo2.png" alt="IFDC Logo" width={160} height={40} />
           </Link>
         </div>
         <nav className="flex items-center gap-20 text-1xl font-bold text-gray-800">

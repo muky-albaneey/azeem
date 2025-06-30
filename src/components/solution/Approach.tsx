@@ -27,44 +27,53 @@ export default function Approach() {
   
           {/* Colored Underline */}
           <div className="absolute bottom-0 left-0 w-full h-2 flex">
-            <div className="flex-1 bg-orange-500" />
-            <div className="flex-1 bg-green-700" />
-            <div className="flex-1 bg-pink-600" />
-            <div className="flex-1 bg-blue-500" />
+             <div className="flex-1 bg-[#D4ADFC]" />
+             
+            <div className="flex-1 bg-[#1D267D]" />
+            <div className="flex-1 bg-[#D4ADFC]" />
+            <div className="flex-1 bg-[#0C134F]" />
+           
+            
           </div>
         </section>
   
         {/* Description Section */}
-        <section className="px-4 md:px-20 py-10 md:py-16 bg-white">
+        <section className="px-4 md:px-20 py-10 md:py-16 bg-white ">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed md:leading-8">
+            <h1 className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed md:leading-8 md:mb-10">
             By bridging the traditional gaps between research, technology dissemination, and market systems, we and our partners innovate, achieve results, and sustain impact at scale.
             </h1>
           </div>
             <div className="w-full md:w-[45%] m-auto">
-                <h1 className="text-4xl font-bold">Our Approach to Feeding the World</h1>
+                <h1 className="text-2xl font-bold text-justify">our approach to changing the world</h1>
                 <p>
-                Fundamental changes in our global agricultural systems are urgently required if we want to increase production to feed a growing population while dramatically reducing agriculture’s environmental impact.
+At Azim Development Company Limited, we take a strategic, impact-driven approach to investment and development. By combining visionary thinking with practical execution, we focus on projects that deliver long-term value to communities and stakeholders.
+Through strong partnerships, innovative technologies, and sustainable practices, we design and deliver infrastructure that meets international standards while addressing Africa’s local needs. Our work is guided by a commitment to economic growth, environmental responsibility, and transformative impact across every sector we serve.
 
                 </p>
-                <p>
+                {/* <p>
                 To solve these problems, IFDC takes the unique approach of engaging the entire discovery-to-consumer continuum. By bridging the traditional gaps between research, technology dissemination, and market systems, we and our partners innovate, achieve results, and sustain impact at scale.
-                </p>
+                </p> */}
                 <h2 className="text-2xl font-bold">How We Do It</h2>
                 <p>
-                We operate on the belief that providing farmers with more nutrient-efficient and profitable technologies, and strengthening related market systems and policies, leads to improved livelihoods, increased food security, and better environmental outcomes. Four strategic priorities flow from this approach:
+               Every project begins with deep market research, stakeholder engagement, and feasibility studies. We align our strategies with both national development goals and real community needs, ensuring relevance and sustainability from day one.
                 </p>
-                <h4 className="text-1xl font-bold">Fertilizer Research</h4>
+                <h4 className="text-1xl font-bold">Strategic Partnerships</h4>
                 <p>
-                While a new generation of tools and technologies appropriate for large-scale, industrial farms being developed, our research focuses on testing and adapting promising technologies that are appropriate for small-scale farmers in developing nations. This includes: 1) developing more nutrient-efficient, environmentally sound fertilizers; 2) validating soil and nutrient testing technologies; 3) scaling up production and adoption of new, tailored fertilizers; and 4) refining and scaling Integrated Soil Fertility Management (ISFM).
+               We collaborate with governments, international investors, and local institutions to pool resources, share expertise, and unlock greater impact. These partnerships strengthen our capacity to deliver at scale across multiple sectors..
                 </p>
-                <h4 className="text-1xl font-bold">Improving Farm Productivity, Profitability, and Sustainability</h4>
+                <h4 className="text-1xl font-bold">Innovation at the Core</h4>
                 <p>
-                Working with national research agencies, the private sector, and local stakeholders, IFDC conducts on-farm demonstrations, intentionally engages women and youth, and uses innovative behavior change and ICT to scale and sustain the adoption of emerging technologies. These efforts will improve on-farm crop-production, the profitability of farming families’ operations, and both the environmental and economic sustainability of smallholder farms.
+                We integrate emerging technologies and global best practices to solve complex infrastructure challenges. From renewable energy to smart construction methods, innovation drives both our efficiency and long-term success.
                 </p>
-                <h4 className="text-1xl font-bold">Strengthening Linkages between Farmers and Markets</h4>
+                <h4 className="text-1xl font-bold">Sustainability and Responsibility</h4>
                 <p>
-                To scale up the adoption of an improved technology, the technology must expand or improve the production of a commodity that is in demand by the market, and that technology must be proﬁtable for farmers to use. To aid in strengthening the linkages between farmers and markets, IFDC conducts scaling assessments to identify promising technologies and commodities and develops partnerships with agribusinesses to drive the development of target commodity systems and scale technology adoption.
+                Every project is built with the future in mind. We adopt environmentally conscious methods, prioritize local content, and empower communities through job creation and inclusive development.
+
+                </p>
+                 <h4 className="text-1xl font-bold">Global Standards, Local Relevance</h4>
+                <p>
+               Our work is guided by international benchmarks, but grounded in African realities. We deliver infrastructure that is modern, resilient, and culturally relevant — with lasting value for both investors and the communities we serve.
                 </p>
             </div>
 
@@ -77,12 +86,10 @@ export default function Approach() {
               Strategic Partnerships
             </h2>
             <p className="text-gray-700 mb-6">
-              Strategic partnerships underpin our work to bridge the gaps between research,
-              farmers, markets, and a supportive, enabling environment. The sustainability of
-              our impact depends on effective partnerships at all levels – from international
-              donors to field-level businesses and research organizations.
+              At Azim Development Company Limited, partnerships are at the heart of everything we do. We work closely with government bodies, private sector players, development agencies, and international investors to unlock greater value and impact. These collaborations enable us to pool resources, scale innovation, and deliver transformative infrastructure that meets both global standards and local needs.
+
             </p>
-            <a href="#" className="font-semibold text-gray-800 border-b-2 border-yellow-400 pb-1">
+            <a href="#" className="font-semibold text-gray-800 border-b-2 border-[#D4ADFC] pb-1">
               Partner with Us
             </a>
           </div>

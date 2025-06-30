@@ -7,18 +7,18 @@ const FeaturedProjects = () => {
   const projects = [
     {
       id: 1,
-      country: "Burkina Faso, Mali, Niger, Nigeria",
-      title: "Soil Values",
+      country: "Nigeria",
+      title: "Nigeria Affordable Mass Housing Programme (NAMHP)",
       description:
-        "Soil Values, a 10-year program (2024-2034) financed by the Netherlands Directorate-General for International Cooperation (DGIS), is a transformative initiative unfolding across Burkina Faso, Mali, Northern Nigeria, and Niger, where the primary objective is to establish sustainable soil fertility management as a cornerstone within the farming systems of the Sahelian and Guinea Savanna regions.",
+        "A nationwide initiative providing safe, modern, and affordable housing for low- and middle-income earners, reducing Nigeria's housing deficit.Building on the success of NAMHP, the programme will be replicated in other African countries facing similar housing challenges. By partnering with local governments and private sector stakeholders, we aim to develop affordable housing solutions tailored to the unique needs of each country, fostering urban development and improving living standards across the continent.",
       image: "/images/project1.jpg",
     },
     {
       id: 2,
       country: "Ghana, Kenya, Malawi, Mozambique, Niger, Tanzania, Uganda",
-      title: "SOILS-Space to Place",
+      title: "Sustainable Energy Development Programme (SEDevP4NGR)",
       description:
-        "Overview African agriculture must be ready to meet the needs of tomorrow. Space to Place rapidly scales innovations in efficiency to become a vital component of intensive and sustainable agricultural systems for existing land under cultivation. In alignment with the U.S.",
+        "Sustainable Energy Development Programme (SEDevP4NGR): A comprehensive programme aimed at expanding access to clean, reliable, and affordable energy solutions, including solar, wind, and hydroelectric power projects. The SEDevP4NGR model will be adapted to address energy deficits in other African nations. By leveraging renewable energy resources such as solar in sun-rich regions, wind in coastal areas, and hydroelectric power in countries with abundant water resources, we aim to provide sustainable energy solutions that drive economic growth and reduce reliance on fossil fuels. This initiative will also include capacity-building programmes to train local communities in renewable energy technologies.",
       image: "/images/project2.jpg",
     },
     {
@@ -32,24 +32,36 @@ const FeaturedProjects = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+const [expanded, setExpanded] = useState(false);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
-  };
+  // const nextSlide = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+  // };
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
-    );
-  };
+  // const prevSlide = () => {
+  //   setCurrentIndex((prevIndex) =>
+  //     prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+  //   );
+  // };
+const nextSlide = () => {
+  setExpanded(false);
+  setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+};
+
+const prevSlide = () => {
+  setExpanded(false);
+  setCurrentIndex((prevIndex) =>
+    prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+  );
+};
 
   return (
     <div className="bg-white text-gray-800 font-sans py-10">
       <div className="container mx-auto px-6 lg:px-12">
         <h2 className="text-3xl lg:text-4xl font-bold mb-4">Featured Projects</h2>
         <p className="text-gray-600 mb-6">
-          Our work showcases our Mission in Action: working together to scale sustainable solutions
-          for soil and plant nutrition that benefit farmers, entrepreneurs, and the environment.
+          From housing and energy to digital infrastructure and transport, our featured projects reflect Azim’s commitment to solving Africa’s most pressing development challenges through innovation, scale, and sustainable impact.
+
         </p>
         <div className="text-right mb-6">
           <button className="text-[#D4ADFC] font-medium underline">View all</button>
@@ -81,18 +93,30 @@ const FeaturedProjects = () => {
               </div>
             </div>
 
-                  {/* <div className="flex justify-center lg:justify-end">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="rounded-lg w-full lg:w-3/4 shadow-md"
-                    />
-                  </div> */}
-                  <div className="lg:pl-8">
+                 
+                  {/* <div className="lg:pl-8">
                     <p className="text-[#1D267D] font-medium mb-2">{project.country}</p>
                     <h3 className="text-2xl font-bold mb-4">{project.title} →</h3>
                     <p className="text-gray-600 mb-6">{project.description}</p>
-                  </div>
+                  </div> */}
+                  <div className="lg:pl-8">
+  <p className="text-[#1D267D] font-medium mb-2">{project.country}</p>
+  <h3 className="text-2xl font-bold mb-4">{project.title} →</h3>
+
+  <p className="text-gray-600 mb-2">
+    {index === currentIndex && expanded ? project.description : `${project.description.slice(0, 200)}...`}
+  </p>
+
+  {project.description.length > 200 && (
+    <button
+      onClick={() => setExpanded(!expanded)}
+      className="text-[#D4ADFC] font-semibold underline"
+    >
+      {expanded ? "Show less" : "Read more"}
+    </button>
+  )}
+</div>
+
                 </div>
               ))}
             </div>

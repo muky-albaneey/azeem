@@ -3,27 +3,27 @@ import Image from 'next/image';
 
 const pillars = [
   {
-    title: 'Develop Better Technologies',
+    title: 'Develop Infrastructure',
     description:
-      'Develop, identify, and test technologies and innovations to improve soil health and plant nutrition.',
+      'Housing, transportation, energy, digital, and industrial projects across Africa.',
     image: '/images/lightbulb.png',
   },
   {
-    title: 'Catalyze Farm Productivity',
+    title: 'Drive Economic Growth',
     description:
-      'Increase farm productivity, profitability, and sustainability of target smallholder agricultural systems.',
+      ' Enable trade, industry, and local enterprise through strategic development.',
     image: '/images/chart.png',
   },
   {
-    title: 'Strengthen Markets',
+    title: 'Empower Communities',
     description:
-      'Strengthen input and output market systems to scale technologies and improve livelihoods, environmental outcomes, and climate resilience.',
+      'Improve quality of life through job creation, access, and social impact.',
     image: '/images/market.png',
   },
   {
-    title: 'Enable Impact',
+    title: 'Promote Innovation',
     description:
-      'Enable impact by improving policies, strengthening capacity, and sharing knowledge.',
+      'Introduce modern technologies and sustainable models that shape Africa’s future.',
     image: '/images/impact.png',
   },
 ];

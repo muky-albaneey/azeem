@@ -45,17 +45,13 @@ export default function SolutionsPage() {
         <section className="px-4 md:px-20 py-10 md:py-16 bg-white">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed md:leading-8">
-              Achieving global food security requires dramatic change in current food production systems. 
-              From better technologies to improved farming practices to functioning, inclusive markets, 
-              there is much to be done to sustainably increase food production while minimizing 
-              environmental impact.
+             Azim Development Company provides solutions to Africa’s major infrastructure problems by building affordable housing, improving energy access, upgrading roads and transport, expanding telecom networks, and developing agriculture and mining. They use creative financing models that let countries pay using their natural resources instead of cash. This helps boost economic growth and reduce poverty. 
+
             </p>
 
 
             <p className="md:px-28 mt-4 md:mt-10">
-            At IFDC, our solutions focus on bridging the gap between these big issues. We strive to develop better fertilizer and production technologies, transfer these improved technologies to smallholder farmers, and connect these farmers to efficient and profitable markets. This continuum is supported by our work to foster an enabling environment which includes conducive government policies, knowledge and data management, and smart fertilizer subsidies, among others.
-
-In practice, our solutions take the shape of four Strategic Objectives. Each of these objectives is supported by research and development activities which embody Our Approaches.
+           
             </p>
           </div>
 

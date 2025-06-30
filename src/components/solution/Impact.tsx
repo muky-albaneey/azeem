@@ -28,18 +28,21 @@ export default function Impact() {
   
           {/* Colored Underline */}
           <div className="absolute bottom-0 left-0 w-full h-2 flex">
-            <div className="flex-1 bg-orange-500" />
-            <div className="flex-1 bg-green-700" />
-            <div className="flex-1 bg-pink-600" />
-            <div className="flex-1 bg-blue-500" />
+            <div className="flex-1 bg-[#D4ADFC]" />
+             
+            <div className="flex-1 bg-[#1D267D]" />
+            <div className="flex-1 bg-[#D4ADFC]" />
+            <div className="flex-1 bg-[#0C134F]" />
           </div>
         </section>
   
         {/* Description Section */}
         <section className="px-4 md:px-20 py-10 md:py-16 bg-white">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed md:leading-8">
-            While simply delivering new technology or offering field demonstrations would make our work easier, sustainable impact drives what we do and how we do it. We believe that lasting change can be accomplished through addressing market systems while enabling impact along the research-farmer-market continuum.            </h1>
+          <div className="max-w-4xl mx-auto ">
+            <h1 className="text-lg md:text-xl font-semibold text-gray-900 leading-relaxed md:leading-8 ">
+At Azim Development Company Limited, our impact is measured by more than completed projects — it’s seen in the lives we touch and the systems we strengthen. From reducing Nigeria’s housing deficit to improving clean energy access and creating student-friendly learning environments, our work supports millions across Africa.
+Through job creation, infrastructure growth, and community upliftment, we are building stronger economies and more resilient futures — one transformative initiative at a time.
+               </h1>
           </div>
             
         <div className="w-full md:w-[45%] m-auto">

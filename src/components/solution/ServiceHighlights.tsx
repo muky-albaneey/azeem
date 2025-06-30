@@ -40,7 +40,7 @@ export default function ServiceHighlights() {
                 {item.title}
               </h2>
               <p className="text-gray-700">{item.text}</p>
-              <p className="mt-4 text-sm font-bold text-gray-700 border-b-[3px] border-yellow-400 w-fit">
+              <p className="mt-4 text-sm font-bold text-gray-700 border-b-[3px] border-[#D4ADFC] w-fit">
                 {item.link}
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function ServiceHighlights() {
             <p className="text-gray-700 mb-4">
               IFDC has built a reputation in developing major fertilizer products currently in the market that are highly nutrient efficient and well proven in their adoption and use. Beyond fertilizers, IFDC has successfully implemented agricultural technologies at scale through innovative and sustainable agribusiness models and mechanisms, by engaging a variety of partners and building effective public-private partnerships. Whether you are in the private sector, a bilateral organization, a national research organization, or an implementing NGO working directly with large numbers of farmers, we want to partner with you.
             </p>
-            <p className="text-sm font-bold text-gray-700 border-b-[3px] border-yellow-400 w-fit">
+            <p className="text-sm font-bold text-gray-700 border-b-[3px] border-[#D4ADFC] w-fit">
               Get in Touch with Us
             </p>
           </div>
