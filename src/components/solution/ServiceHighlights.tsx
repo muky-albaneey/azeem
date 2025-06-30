@@ -64,7 +64,7 @@ export default function ServiceHighlights() {
               We Want to Build with You
             </h2>
             <p className="text-gray-700 mb-4">
-              Azim Construction Company is a trusted partner for governments, developers, and private investors across Africa. With a proven track record in delivering large-scale housing, roads, energy, and infrastructure projects, we bring technical precision and financial innovation to every job. Whether you're seeking a reliable contractor or a long-term development partner, we are ready to collaborate and deliver lasting impact.
+              Azim Construction Company is a trusted partner for governments, developers, and private investors across Africa. With a proven track record in delivering large-scale housing, roads, energy, and infrastructure projects, we bring technical precision and financial innovation to every job. Whether you&apos;re seeking a reliable contractor or a long-term development partner, we are ready to collaborate and deliver lasting impact.
             </p>
             <p className="text-sm font-bold text-gray-700 border-b-[3px] border-[#D4ADFC] w-fit">
               Get in Touch with Us
