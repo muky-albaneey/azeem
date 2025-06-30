@@ -28,8 +28,7 @@ export default function AboutUsPage() {
       {/* Intro Section */}
       <div className="w-[100%] md:w-[40%] mx-auto px-4 py-10 text-left">
         <p className="text-sm md:text-base">
-          IFDC is an independent non-profit organization that combines innovative research, market systems development, and strategic partnerships to spread
-          sustainable agricultural solutions for improved soil health, food security, and livelihoods around the world.
+          Azim Development Company Ltd is a fast-growing, multi-sector company based in Abuja, Nigeria, with a footprint across Africa. We deliver innovative, sustainable solutions in real estate, energy, construction, transport, telecoms, agriculture, and mining—transforming communities and driving economic growth beyond oil
         </p>
       </div>
 
@@ -42,13 +41,14 @@ export default function AboutUsPage() {
           <div className="space-y-6 text-center md:text-left">
             <div>
               <h3 className="text-xl font-bold">Vision</h3>
-              <p className="text-sm">Healthier soils and plants in a food-secure and environmentally sustainable world.</p>
+              <p className="text-sm">To be Africa’s leading developer, delivering transformative projects across key sectors while setting new standards in sustainability, innovation, and impact.
+</p>
             </div>
             <div>
               <h3 className="text-xl font-bold">Mission</h3>
               <p className="text-sm">
-                By merging knowledge from research, market expertise, and strategic public and private sector partnerships, we enable smallholder farmers to
-                produce more food and improve their livelihoods while sustaining natural resources.
+                Our mission is to bridge Africa’s infrastructure gap with sustainable, high-quality solutions in housing, energy, transport, telecoms, agriculture, and mining—empowering communities and positioning Africa as a global leader.
+
               </p>
               <a href="#" className="text-green-600 underline text-sm">Our 2020–2030 Strategy</a>
             </div>
@@ -60,23 +60,30 @@ export default function AboutUsPage() {
       <div className="bg-white py-16">
         <div className="w-[100%] md:w-[40%] mx-auto px-4 space-y-8 text-center md:text-left">
           <p className="text-sm">
-            Over the coming decades, global population growth will drive a substantial increase in demand for food, energy, and water. The largest share of this
-            demand will come from developing countries. These trends bring new and urgent challenges as a historic transformation unfolds in global agriculture.
+          We believe in the power of collaboration and actively engage with governments, private sector partners, and global investors to unlock new opportunities, share resources, and scale impact across borders. Every project is designed with sustainability and community upliftment in mind—ensuring job creation, environmental stewardship, and enhanced quality of life. By focusing on non-oil, export-oriented sectors, we contribute to economic diversification and resilience, while positioning Africa to compete and lead in global markets. Through this strategic lens, Azim remains committed to building a stronger, smarter, and more inclusive future for the continent.
+
           </p>
           <p className="text-sm">
-            As a global community, we must enable farmers to produce more food on existing land, using fewer resources. IFDC is focused on supporting smallholder
-            farmers by improving soil fertility, developing input markets, and building capacities to use agricultural innovations sustainably.
+            Develop Infrastructure
+ Housing, transportation, energy, digital, and industrial projects across Africa.
           </p>
+          {/* <p className="text-sm">
+           Drive Economic Growth
+ Enable trade, industry, and local enterprise through strategic development.
+
+          </p> */}
+         
           <div className="flex justify-center">
             <Image src="/map.png" alt="Global Map" width={400} height={250} />
           </div>
           <h1 className='font-bold'>
-                Since 1974, IFDC has delivered technologies, practices, and capacity building to increase and sustain food security and agricultural productivity in over 100 developing countries.
+                 Empower Communities
+ Improve quality of life through job creation, access, and social impact.
             </h1>
            <p className="text-sm">
             
-            As a global community, we must enable farmers to produce more food on existing land, using fewer resources. IFDC is focused on supporting smallholder
-            farmers by improving soil fertility, developing input markets, and building capacities to use agricultural innovations sustainably.
+           Promote Innovation
+ Introduce modern technologies and sustainable models that shape Africa’s future.
           </p>
         </div>
       </div>

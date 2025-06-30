@@ -6,36 +6,37 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
-  {
-    image: '/azim1.jpeg',
-    category: 'CATALYZING FARM PRODUCTIVITY',
-    date: 'APRIL 2, 2025',
-    title: 'ISFM Training in Burkina Faso: A Collaborative Approach to Soil Fertility and Land'
-  },
-  {
-    image: '/azim2.jpeg',
-    category: 'DEVELOPING BETTER TECHNOLOGIES',
-    date: 'APRIL 8, 2025',
-    title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
-  },
-  {
-    image: '/azim3.jpeg',
-    category: 'DEVELOPING BETTER TECHNOLOGIES',
-    date: 'APRIL 8, 2025',
-    title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
-  },
-  {
-    image: '/a_pro1.jpeg',
-    category: 'DEVELOPING BETTER TECHNOLOGIES',
-    date: 'APRIL 8, 2025',
-    title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
-  },
-  {
-    image: '/a_pro2.jpeg',
-    category: 'DEVELOPING BETTER TECHNOLOGIES',
-    date: 'APRIL 8, 2025',
-    title: 'Revitalizing African Farms: How Organic Inputs Can Build Soil Health'
-  }
+{
+  image: '/azim1.jpeg',
+  category: 'DRIVING INFRASTRUCTURE GROWTH',
+  date: 'APRIL 2, 2025',
+  title: 'Modern Housing Project in Abuja: A Model for Sustainable Urban Living'
+},
+{
+  image: '/azim2.jpeg',
+  category: 'INNOVATING CONSTRUCTION TECHNOLOGIES',
+  date: 'APRIL 8, 2025',
+  title: 'Enhancing Building Standards with Smart Construction Materials'
+},
+{
+  image: '/azim3.jpeg',
+  category: 'INNOVATING CONSTRUCTION TECHNOLOGIES',
+  date: 'APRIL 8, 2025',
+  title: 'Introducing Modular Techniques for Faster Project Delivery'
+},
+{
+  image: '/a_pro1.jpeg',
+  category: 'BUILDING RESILIENT COMMUNITIES',
+  date: 'APRIL 8, 2025',
+  title: 'Rural Road Expansion: Connecting People and Markets'
+},
+{
+  image: '/a_pro2.jpeg',
+  category: 'BUILDING RESILIENT COMMUNITIES',
+  date: 'APRIL 8, 2025',
+  title: 'Empowering Local Labor: Skills Development Through Construction Projects'
+}
+
 ];
 
 export default function IFDCCarousel() {

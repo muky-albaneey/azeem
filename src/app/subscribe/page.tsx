@@ -38,11 +38,11 @@ const countries = [
 ];
 
 const newsletters = [
-  "IFDC Monthly Newsletter",
-  "AfricaFertilizer Newsletter", 
-  "FERARI Quarterly Newsletter",
-  "EnGRAIS Quarterly Newsletter",
-  "Other Publications"
+   "Azim Monthly Construction Bulletin",
+  "Urban Infrastructure Weekly",
+  "Site Safety Insights",
+  "Green Building Digest",
+  "Other Updates"
 ];
 
 export default function SubscribePage() {
@@ -106,7 +106,7 @@ export default function SubscribePage() {
         <div className="max-w-2xl mx-auto px-6">
           <div className="text-center mb-8">
             <p className="text-gray-700 text-lg">
-              Subscribe below to receive regular updates from IFDC.
+              Subscribe below to receive construction insights and updates from Azim.
             </p>
           </div>
           
@@ -248,10 +248,10 @@ export default function SubscribePage() {
                   </div>
                   <div className="mt-4 p-4 bg-gray-50 rounded-md">
                     <p className="text-sm text-gray-600">
-                      You agree that IFDC may collect, use and disclose your personal data which 
+                      You agree that Azim may collect, use and disclose your personal data which 
                       you have provided in this form, for providing marketing material that you 
                       have agreed to receive, in accordance with our{" "}
-                      <span className="text-green-600 underline cursor-pointer">data protection policy</span>. 
+                      <span className="text-[#D4ADFC] underline cursor-pointer">data protection policy</span>. 
                       Please tick the relevant boxes above if you agree.
                     </p>
                   </div>
@@ -274,7 +274,7 @@ export default function SubscribePage() {
                 {/* Submit Button */}
                 <Button 
                   type="submit" 
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-medium w-full md:w-auto"
+                  className="bg-[#5C469C] hover:bg-[#D4ADFC] text-white px-8 py-3 text-lg font-medium w-full md:w-auto"
                 >
                   Submit
                 </Button>

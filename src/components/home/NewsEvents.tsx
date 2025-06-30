@@ -1,26 +1,28 @@
+import { Link } from 'lucide-react';
 import Image from 'next/image';
 
 export default function NewsEvents() {
-  const news = [
-    {
-      type: 'Event Recap',
-      date: 'May 8, 2025',
-      title: 'HortiNigeria and NIRSAL Host Workshop on Sustainable Finance for Nigeria’s Horticulture Sector',
-      image: '/a_pro1.jpeg',
-    },
-    {
-      type: 'News',
-      date: 'May 1, 2025',
-      title: 'Improving Nigeria’s Dairy Sector and Empowering Pastoralist Communities',
-      image: '/a_pro2.jpeg',
-    },
-    {
-      type: 'Event Recap',
-      date: 'April 28, 2025',
-      title: 'TRANSFORM Launched to Restore Ethiopia’s Agricultural Potential',
-      image: '/transform.jpg',
-    },
-  ];
+const news = [
+  {
+    type: 'Project Launch',
+    date: 'May 8, 2025',
+    title: 'Azmico Construction Unveils Smart Housing Project in Abuja',
+    image: '/a_pro1.jpeg',
+  },
+  {
+    type: 'Azimco News',
+    date: 'May 1, 2025',
+    title: 'Expanding Infrastructure in Northern Nigeria: New Roads and Bridges Underway',
+    image: '/a_pro2.jpeg',
+  },
+  {
+    type: 'Project Recap',
+    date: 'April 28, 2025',
+    title: 'Urban Renewal Initiative Breaks Ground in Lagos Mainland',
+    image: '/transform.jpg',
+  },
+];
+
 
   return (
     <section className="px-4 py-12 md:px-20 bg-[url('/bg-watercolor.jpg')] bg-no-repeat bg-cover">
@@ -51,7 +53,7 @@ export default function NewsEvents() {
           </div>
         ))}
       </div>
-      <h5 className='text-center underline'>View all News & Events</h5>
+      <h5 className='text-center underline'>      <a href='/news-events'>View all News & Events</a> </h5>
       <div className="fixed top-1/2 right-0 transform -translate-y-1/2 rotate-180 bg-[#1D267D] text-white px-3 py-1 font-bold text-sm cursor-pointer">
         Share
       </div>

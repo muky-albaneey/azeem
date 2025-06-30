@@ -18,230 +18,232 @@ interface Project {
 const projects: Project[] = [
   {
     id: "1",
-    title: "SeedNigeria",
+    title: "SeedNigeria Infrastructure Development",
     location: "Burkina Faso, Mali, Niger, Nigeria",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "SeedNigeria program (2021-2023), funded by the Embassy of the Kingdom of the Netherlands (EKN) in Nigeria, aims to facilitate the development of a sustainable and viable horticulture sector that contributes to food and nutrition security in Nigeria. The program targets 2,000 jobs and 15% are women, and have improved productivity and [...]"
+    image: "/a_pro1.jpeg",
+    description: "A multi-country infrastructure project aimed at developing sustainable housing and utility systems, targeting job creation and improved urban resilience."
   },
   {
     id: "2", 
-    title: "Soil Values",
+    title: "Soil Values Road Network Expansion",
     location: "Burkina Faso, Mali, Niger, Nigeria",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Soil Values, a 10-year program (2024-2034) financed by the Netherlands Directorate-General for International Cooperation (DGIS), is a transformative inclusive smallholder agriculture project that builds upon the Sahel Biofortification [...]"
+    image: "/a_pro2.jpeg",
+    description: "A 10-year program focused on constructing and upgrading critical rural roads and drainage systems to facilitate transportation and logistics."
   },
   {
     id: "3",
-    title: "SOILS-Space to Place",
+    title: "SOILS-Space to Place Urban Planning Project",
     location: "Ghana, Kenya, Malawi, Mozambique, Niger, Tanzania, Uganda, Zambia",
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200", 
-    description: "Diverse African agricultural lands barely to meet the needs of an expanding population. SOILS-Space to Place rapidly scales innovations in efficiency and obsolete production methods working [...]"
+    image: "/a_pro3.jpeg",
+    description: "A regional effort to modernize city layouts, build affordable housing, and improve waste and water infrastructure across 8 countries."
   },
   {
     id: "4",
-    title: "Agricultural Market Access Phase 3 (AGAMA-3)",
+    title: "AGAMA-3: Commercial Facility Construction",
     location: "Benin",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Phase 1 of the Central African Republic (CAR) Value Chain Development Project aims to reduce poverty, increase market productivity and strengthen market functioning [...]"
+    image: "/a_pro1.jpeg",
+    description: "Construction of rural market centers, warehouses, and road links to improve agricultural trade infrastructure in Benin."
   },
   {
     id: "5",
-    title: "Integrated Rural Development in Gaoual, Koundara, and Mali (PDRI/GKM)",
+    title: "Integrated Rural Development Infrastructure (PDRI/GKM)",
     location: "Guinea",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "The project focuses on integrated rural development in three regions of Guinea."
+    image: "...",
+    description: "Development of bridges, rural roads, and community buildings to support local infrastructure in Guinea’s interior regions."
   },
   {
     id: "6", 
-    title: "Value4Dairy",
+    title: "Value4Dairy Cold Chain Infrastructure",
     location: "Nigeria",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "A comprehensive dairy value chain development project in Nigeria."
+    image: "...",
+    description: "Construction of milk collection centers, cold storage units, and distribution depots for Nigeria's growing dairy sector."
   },
   {
     id: "7",
-    title: "Transform Soil Fertility Management in Ethiopia (TRANSFORM)",
+    title: "TRANSFORM: National Soil Lab Facilities",
     location: "Ethiopia", 
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Transforming soil fertility management practices across Ethiopia."
+    image: "...",
+    description: "Building laboratory and research centers to support soil testing and environmental management through modern infrastructure."
   },
   {
     id: "8",
-    title: "Coalition of Implementors for Fertilizers and Soil Health (CIFSH)",
+    title: "CIFSH: Soil Health & Logistics Infrastructure",
     location: "Multi-country",
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "A coalition working on fertilizers and soil health initiatives."
+    image: "...",
+    description: "Development of central soil testing facilities and logistics bases to strengthen regional supply chains and restoration programs."
   },
   {
     id: "9",
-    title: "Sustain Africa Burkina Faso: Emergency Response and Resilience Initiative to Mitigate Food Insecurity and Build Resilience in Burkina Faso",
+    title: "Sustain Africa Emergency Infrastructure",
     location: "Burkina Faso",
     status: "Concluded",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Emergency response initiative to address food insecurity in Burkina Faso."
+    image: "...",
+    description: "Emergency road and shelter construction in response to regional food and climate crises in Burkina Faso."
   },
   {
     id: "10",
-    title: "Triple Resilience (3R)",
+    title: "Triple Resilience Construction Program",
     location: "Mozambique",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Building resilience through agricultural interventions in Mozambique."
+    image: "...",
+    description: "A project focused on building disaster-resilient housing and transport infrastructure in vulnerable regions of Mozambique."
   }
 ];
 
 const additionalProjects: Project[] = [
   {
     id: "11",
-    title: "Feed the Future Bangladesh Climate Smart Agriculture Project",
+    title: "Bangladesh Climate-Resilient Infrastructure",
     location: "Bangladesh",
     status: "Concluded",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Climate smart agriculture initiatives in Bangladesh."
+    image: "...",
+    description: "Construction of elevated roads, flood protection walls, and storm-resilient buildings in climate-affected areas."
   },
   {
     id: "12",
-    title: "Feed the Future Mali Seme Yiriwa Agricultural Production Activities in Sikasso Project",
+    title: "Sikasso Infrastructure Expansion Project",
     location: "Mali",
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Agricultural production enhancement in Mali's Sikasso region."
+    image: "...",
+    description: "Improving road access, irrigation infrastructure, and market centers in Mali’s Sikasso region."
   },
   {
     id: "13",
-    title: "Communal Approach to the Agriculture Marketing Promotion in the Communes of Central and North Benin",
+    title: "Benin Communal Infrastructure Development",
     location: "Benin",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Community-based agricultural marketing initiatives in Benin."
+    image: "...",
+    description: "Development of roads and public service buildings to support economic activities across communes in northern Benin."
   },
   {
     id: "14",
-    title: "Building Resilience and Inclusive Growth",
+    title: "Uganda Growth Through Infrastructure",
     location: "Uganda",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Building resilience and promoting inclusive economic growth in Uganda."
+    image: "...",
+    description: "Construction of schools, roads, and energy infrastructure to stimulate inclusive economic growth."
   },
   {
     id: "15",
-    title: "Feed the Future Nigeria Rural Resilience Activity", 
+    title: "Nigeria Rural Infrastructure Resilience",
     location: "Nigeria",
     status: "Concluded",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Rural resilience building activities in Nigeria."
+    image: "...",
+    description: "Road and shelter construction for conflict-affected rural communities, boosting resilience and connectivity."
   },
   {
     id: "16",
-    title: "The Fertilizer Sector Improvement Project (FSI+)",
+    title: "Myanmar Fertilizer Plant & Transport Hub",
     location: "Myanmar",
     status: "Concluded", 
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Fertilizer sector improvement initiatives in Myanmar."
+    image: "...",
+    description: "Construction of fertilizer production and distribution infrastructure to enhance agricultural logistics."
   },
   {
     id: "17",
-    title: "Scaling Up Fertilizer Deep Placement and Microdosing Technologies in Mali (FDP MD)",
+    title: "Mali Micro-Dam and Road Construction",
     location: "Mali",
     status: "Concluded",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Scaling fertilizer placement technologies in Mali."
+    image: "...",
+    description: "Scaling construction of small-scale dams and feeder roads for increased agricultural productivity and water access."
   },
   {
     id: "18",
-    title: "The Sustainable Soil Management Component (SSMC) of the OCP Foundation Agricultural Development Project",
+    title: "Bangladesh Sustainable Soil Infrastructure",
     location: "Bangladesh",
     status: "Concluded",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200",
-    description: "Sustainable soil management project in Bangladesh."
+    image: "...",
+    description: "Infrastructure to support soil testing and research, including labs and training centers for sustainable land use."
   }
 ];
+
 
 const yellowCardProjects: Project[] = [
   {
     id: "19",
-    title: "Accelerating Vegetable Productivity Improvement Project (AVPI)",
+    title: "AVPI: Vegetable Market Infrastructure",
     location: "Bangladesh",
     status: "Concluded",
     image: "",
-    description: "Improving vegetable productivity in Bangladesh.",
+    description: "Building modern storage, processing, and trading facilities for vegetable producers in Bangladesh.",
     isHighlighted: true
   },
   {
     id: "20", 
-    title: "Integrated Seed Sector Development in the Sahel (ISSD/Sahel)",
+    title: "ISSD/Sahel: Seed Infrastructure Development",
     location: "Mali, Niger",
     image: "",
-    description: "Integrated seed sector development across Sahel regions.",
+    description: "Construction of seed processing plants, storage units, and transportation routes in the Sahel region.",
     isHighlighted: true
   },
   {
     id: "21",
-    title: "Accelerating Agriculture and Agribusiness in South Sudan for Enhanced Economic Development (A3-SEED)",
+    title: "A3-SEED: South Sudan Construction Initiative",
     location: "South Sudan",
     image: "",
-    description: "Accelerating agricultural development in South Sudan.",
+    description: "Developing urban roads, housing, and commercial infrastructure to support economic recovery.",
     isHighlighted: true
   },
   {
     id: "22",
-    title: "Accelerating Farm Incomes: Building Sustainable Soil Health, Markets, and Productivity (AFI)",
+    title: "AFI: Soil Health & Market Access Infrastructure",
     location: "India",
     status: "Concluded",
     image: "",
-    description: "Building sustainable agricultural systems in India.",
+    description: "Upgrading transport and storage facilities to improve market access and support sustainable soil practices.",
     isHighlighted: true
   },
   {
     id: "23",
-    title: "Supporting Agricultural Productivity in Burundi (PAPAB)",
+    title: "PAPAB: Infrastructure Support for Productivity",
     location: "Burundi", 
     status: "Concluded",
     image: "",
-    description: "Supporting agricultural productivity improvements in Burundi.",
+    description: "Construction of small bridges, rural feeder roads, and water infrastructure to improve farming access.",
     isHighlighted: true
   },
   {
     id: "24",
-    title: "Private Seed Sector Development (PSSD)",
+    title: "PSSD: Private Sector Infrastructure Boost",
     location: "Burundi",
     image: "",
-    description: "Developing private seed sector in Burundi.",
+    description: "Supporting private seed companies with new warehouse and logistics infrastructure.",
     isHighlighted: true
   },
   {
     id: "25",
-    title: "Transforming Irrigation Management in Nigeria (TRIMING) Extension Service Supervision Project",
+    title: "TRIMING: Irrigation and Civil Works Supervision",
     location: "Nigeria",
     status: "Concluded", 
     image: "",
-    description: "Transforming irrigation management systems in Nigeria.",
+    description: "Overseeing construction of major irrigation and canal systems as part of Nigeria’s agricultural transformation agenda.",
     isHighlighted: true
   },
   {
     id: "26",
-    title: "Technologies for African Agricultural Transformation (TAAT): Soil Fertility Enabler",
+    title: "TAAT: Regional Infrastructure for Fertilizer Use",
     location: "Benin, Burkina Faso, Ghana, Mali, Nigeria",
     status: "Concluded",
     image: "",
-    description: "Soil fertility technologies for African agricultural transformation.",
+    description: "Building regional infrastructure for fertilizer blending, distribution, and farmer training centers.",
     isHighlighted: true
   },
   {
     id: "27",
-    title: "Smallholder Agricultural Productivity Enhancement Program (SAPEP)",
+    title: "SAPEP: Rural Productivity Infrastructure Program",
     location: "Benin, Burkina Faso, Cameroon, Mali, Niger",
     status: "Concluded",
     image: "",
-    description: "Enhancing smallholder agricultural productivity across West Africa.",
+    description: "Infrastructure program focused on constructing small irrigation works, silos, and feeder roads across West Africa.",
     isHighlighted: true
   },
   {
     id: "28",
-    title: "Resilient Efficient Agribusiness Chains in Uganda (REACH-Uganda)",
+    title: "REACH-Uganda: Agribusiness Facility Development",
     location: "Uganda",
     status: "Concluded",
     image: "",
-    description: "Building resilient agribusiness chains in Uganda.",
+    description: "Developing agribusiness parks, industrial sheds, and logistics centers for SMEs in Uganda.",
     isHighlighted: true
   }
 ];
+
 
 export default function ProjectsPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -446,7 +448,7 @@ export default function ProjectsPage() {
                   key={index}
                   onClick={() => goToSlide(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
-                    index === currentSlide ? 'bg-green-600' : 'bg-gray-300'
+                    index === currentSlide ? 'bg-[#D4ADFC]' : 'bg-gray-300'
                   }`}
                 />
               ))}
@@ -477,7 +479,7 @@ export default function ProjectsPage() {
                     />
                   ) : (
                     <div className={`w-full h-48 flex items-center justify-center rounded-t-lg ${
-                      project.isHighlighted ? 'bg-yellow-300' : 'bg-gray-200'
+                      project.isHighlighted ? 'bg-[#D4ADFC]' : 'bg-gray-200'
                     }`}>
                       <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
                         <span className="text-white font-bold text-sm">?</span>
@@ -485,10 +487,10 @@ export default function ProjectsPage() {
                     </div>
                   )}
                   <div className="absolute top-2 left-2">
-                    <div className="bg-green-600 h-1 w-16"></div>
+                    <div className="bg-[#D4ADFC] h-1 w-16"></div>
                   </div>
                   {project.status && (
-                    <div className="absolute top-2 right-2 bg-yellow-400 text-black px-2 py-1 rounded text-xs font-medium">
+                    <div className="absolute top-2 right-2 bg-[#D4ADFC] text-black px-2 py-1 rounded text-xs font-medium">
                       {project.status}
                     </div>
                   )}
@@ -496,7 +498,7 @@ export default function ProjectsPage() {
                 
                 <CardContent className="p-4">
                   <div className="text-xs text-gray-500 mb-2">{project.location}</div>
-                  <h3 className="font-bold text-gray-800 mb-2 group-hover:text-green-600 transition-colors flex items-start">
+                  <h3 className="font-bold text-gray-800 mb-2 group-hover:text-[#D4ADFC] transition-colors flex items-start">
                     {project.title}
                     <ArrowRight className="w-4 h-4 ml-2 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </h3>
@@ -528,13 +530,14 @@ export default function ProjectsPage() {
                 />
                 <CardContent className="p-4 flex-1">
                   <div className="text-xs text-orange-600 font-medium mb-1">Senegal</div>
-                  <h3 className="font-bold text-gray-800 text-sm group-hover:text-green-600 transition-colors flex items-center">
-                    Agricultural Value Chain Development Project in Guinea (PDCVA-G)
-                    <ArrowRight className="w-3 h-3 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </h3>
+                  <h3 className="font-bold text-gray-800 text-sm group-hover:text-[#D4ADFC] transition-colors flex items-center">
+  Infrastructure Development Project in Guinea (IDPG)
+  <ArrowRight className="w-3 h-3 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+</h3>
+
                 </CardContent>
               </div>
-              <div className="bg-yellow-400 h-1 w-full"></div>
+              <div className="bg-[#D4ADFC] h-1 w-full"></div>
             </Card>
 
             <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer bg-white">
@@ -546,13 +549,14 @@ export default function ProjectsPage() {
                 />
                 <CardContent className="p-4 flex-1">
                   <div className="text-xs text-orange-600 font-medium mb-1">Burkina</div>
-                  <h3 className="font-bold text-gray-800 text-sm group-hover:text-green-600 transition-colors flex items-center">
-                    Agricultural Value Chain Development Project in Guinea (PDCVA-G)
-                    <ArrowRight className="w-3 h-3 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </h3>
+                 <h3 className="font-bold text-gray-800 text-sm group-hover:text-[#D4ADFC] transition-colors flex items-center">
+  Construction and Infrastructure Development Project in Guinea (CIDPG)
+  <ArrowRight className="w-3 h-3 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+</h3>
+
                 </CardContent>
               </div>
-              <div className="bg-yellow-400 h-1 w-full"></div>
+              <div className="bg-[#D4ADFC] h-1 w-full"></div>
             </Card>
           </div>
         </div>
@@ -562,7 +566,7 @@ export default function ProjectsPage() {
     <section className="py-16 bg-white">
   <div className="max-w-4xl mx-auto px-6 text-center">
     <h2 className="text-4xl font-bold text-gray-800 mb-10">
-      Let&apos;s partner together to increase food security and sustainability
+      Let&apos;s partner together to drive infrastructure development across communities
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 text-left">
@@ -581,7 +585,7 @@ export default function ProjectsPage() {
     </div>
 
     <Button
-      className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg"
+      className="bg-g[#D4ADFC] hover:bg-[#D4ADFC] text-white px-8 py-3 text-lg"
       onClick={() => setShowPartnersModal(true)}
     >
       Learn about partnerships

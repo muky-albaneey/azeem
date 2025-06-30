@@ -19,16 +19,16 @@ export default function   ResourcesPage() {
             >
               virtual library
             </a>{' '}
-            to search for IFDC publications and materials.
+            to search for Azim publications and materials.
           </p>
   
           <div className="text-left mt-6 text-gray-700 text-lg md:text-xl">
             <p className="mb-2">Available materials include:</p>
             <ul className="list-disc list-inside space-y-1">
-              <li>Annual Reports</li>
-              <li>Fertilizer Reports</li>
-              <li>Staff Publications</li>
-              <li>And many other resources</li>
+             <li>Project Portfolio</li>
+<li>Construction Progress Reports</li>
+<li>Engineering & Design Documents</li>
+<li>And many other construction resources</li>
             </ul>
           </div>
         </div>

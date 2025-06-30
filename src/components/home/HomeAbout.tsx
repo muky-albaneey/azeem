@@ -24,7 +24,10 @@ export default function HomeAboutUs() {
             height={300}
             className="rounded"
           />
-<h4 className={`w-[65%] text-left mt-10`}>IFDC is comprised of a dynamic team of individuals working worldwide to help improve sustainability.</h4>
+<h4 className={`w-[65%] text-left mt-10`}>
+  Azim is made up of a dedicated team of professionals working globally to build resilient infrastructure and shape a sustainable future.
+</h4>
+
 
 <a
             href="#"
@@ -37,11 +40,10 @@ export default function HomeAboutUs() {
       {/* Mobile Layout */}
       <div className="lg:hidden">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
-        <p className="text-base text-gray-700 mb-4">
-          We are scientists, development professionals, and community members dedicated to scientific innovations that
-          increase global food production, protect the environment, and empower smallholder farmers. Since 1974, we
-          have worked in more than 100 countries to improve food security from right where it all starts: the soil.
-        </p>
+       <p className="text-base text-gray-700 mb-4">
+  We are engineers, builders, and visionaries committed to transforming skylines and strengthening communities through innovative construction solutions. Since 1974, Azim has delivered impactful infrastructure projects across more than 100 countries, building a legacy of quality, sustainability, and reliability from the ground up.
+</p>
+
         <a
           href="#"
           className="inline-block text-base font-medium text-gray-900 underline decoration-yellow-400 decoration-4 mb-6">
@@ -54,9 +56,10 @@ export default function HomeAboutUs() {
           height={400}
           className="rounded mb-6"
         />
-        <p className="text-base text-gray-700">
-          IFDC is comprised of a dynamic team of individuals working worldwide to help improve sustainability.
-        </p>
+       <p className="text-base text-gray-700 mb-4">
+  Azim is made up of a dedicated team of professionals working around the world to deliver sustainable construction solutions that shape better cities and communities.
+</p>
+
         <h2 className="text-xl font-bold mt-4">Meet Our Team</h2>
       </div>
     </div>

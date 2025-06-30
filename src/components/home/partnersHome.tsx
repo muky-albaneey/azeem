@@ -55,7 +55,7 @@ const PartnerCarousel = () => {
 
   return (
     <div className="w-full bg-[url('/backgrounds/yellow-texture.png')] bg-cover py-10 text-center">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">Solving Food Security Together</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-8">Azimco Building the Future Together</h2>
 
       <div
         className={`grid gap-4 px-4 ${
