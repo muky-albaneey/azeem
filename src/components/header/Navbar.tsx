@@ -21,14 +21,14 @@ export default function Navbar() {
       {/* Desktop Top Navbar */}
       <div className="hidden lg:flex items-center justify-end px-8 py-3 space-x-6 text-sm font-semibold text-gray-700 relative">
         {topLinks.map(link => (
-  <Link key={link.name} href={link.link} className="hover:text-green-600">
+  <Link key={link.name} href={link.link} className="hover:text-[#D4ADFC]">
     {link.name}
   </Link>
 ))}
 
         <div className="flex items-center justify-between">
   <select
-  className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 hover:text-green-600 focus:outline-none focus:ring focus:ring-green-300"
+  className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 hover:text-[#D4ADFC] focus:outline-none focus:ring focus:ring-[#D4ADFC]"
   defaultValue="EN"
 >
   <option value="EN">English</option>
@@ -68,7 +68,7 @@ export default function Navbar() {
         </div>
         <nav className="flex items-center gap-20 text-1xl font-bold text-gray-800">
           {bottomLinks.map(link => (
-            <a key={link.name} href={link.link} className="hover:text-green-600">
+            <a key={link.name} href={link.link} className="hover:text-[#D4ADFC]">
               {link.name}
             </a>
           ))}
@@ -79,7 +79,7 @@ export default function Navbar() {
       <div className="flex lg:hidden items-center justify-between px-4 py-3 shadow-md">
         <Image src="/next.svg" alt="IFDC Logo" width={140} height={35} />
         <button onClick={() => setMobileOpen(true)}>
-          <Menu className="w-6 h-6 text-green-600" />
+          <Menu className="w-6 h-6 text-[#D4ADFC]" />
         </button>
       </div>
 
@@ -95,7 +95,7 @@ export default function Navbar() {
                 setMobileOpen(false);
               }
             }}>
-              <X className="w-6 h-6 text-green-600" />
+              <X className="w-6 h-6 text-[#D4ADFC]" />
             </button>
           </div>
 
@@ -124,7 +124,7 @@ export default function Navbar() {
                 ))} */}
                 {bottomLinks.map(link => (
                 <div key={link.name} className="flex items-center justify-between">
-                  <a href={link.link} className="hover:text-green-600">{link.name}</a>
+                  <a href={link.link} className="hover:text-[#D4ADFC]">{link.name}</a>
                   <ChevronDown className="w-5 h-5 text-gray-600" />
                 </div>
               ))}
@@ -141,7 +141,7 @@ export default function Navbar() {
                   <Search className="w-5 h-5 text-gray-600" />
                 </div>
                 {topLinks.map(link => (
-  <Link key={link.name} href={link.link} className="block hover:text-green-600">
+  <Link key={link.name} href={link.link} className="block hover:text-[#D4ADFC]">
     {link.name}
   </Link>
 ))}
@@ -150,7 +150,7 @@ export default function Navbar() {
   <label htmlFor="language-select" className="text-sm">Language</label>
   <select
     id="language-select"
-    className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 focus:outline-none focus:ring focus:ring-green-300"
+    className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-700 focus:outline-none focus:ring focus:ring-[#D4ADFC]"
     defaultValue="EN"
   >
     <option value="EN">English</option>

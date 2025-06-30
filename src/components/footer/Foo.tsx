@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Logo and Address */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <Image
-              src="/logos/ifdc-logo.png"
+              src="/azimlogo2.png"
               alt="IFDC Logo"
               width={160}
               height={100}

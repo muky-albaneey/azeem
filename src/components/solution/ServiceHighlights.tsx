@@ -3,23 +3,23 @@ import Image from "next/image";
 const content = [
   {
     image: "/images/greenhouse.jpg",
-    title: "Laboratory and Greenhouse Services",
-    text: "In collaboration with our on-site Engineering and Pilot Plant Services, and through our presence in various countries around the world, we are the only organization capable of taking a fertilizer technology idea from our labs to production testing to field trial implementation.",
-    link: "Taking research to scale",
+    title: "Architectural Design & Pre-Construction Services",
+    text: "Azim Construction Company provides end-to-end architectural planning and design consultation. From initial feasibility assessments to final concept drawings, we help clients visualize and plan projects that are practical, sustainable, and aligned with regulatory standards.",
+    link: "Explore our planning process",
     reverse: false,
   },
   {
     image: "/images/plant.jpg",
-    title: "Pilot Plant and Engineering Services",
-    text: "Our Engineering and Pilot Plant Services can help you test feasibility and scalability of any new fertilizer product. From physical properties testing to technical assistance, IFDC’s services will ensure a comprehensive approach to your process development.",
-    link: "Learn about our services",
+    title: "Engineering & Structural Development",
+    text: "Our in-house engineering teams specialize in civil, structural, and mechanical systems. We test project viability and scalability while providing hands-on guidance to ensure safe, efficient, and cost-effective builds across housing, infrastructure, and energy sectors.",
+    link: "Learn about our engineering expertise",
     reverse: true,
   },
   {
     image: "/images/fertility.jpg",
-    title: "Feed the Future Soil Fertility Technology Project",
-    text: "IFDC’s work under the Feed the Future SFT agreement bridges the gap between scientific research and technology dissemination to smallholder farmers.",
-    link: "Bridging the research gap",
+    title: "Construction Management & Project Delivery",
+    text: "Azim ensures that construction projects are delivered on time, on budget, and to the highest standards. Our experienced teams coordinate every stage—from procurement to quality control—while maintaining transparent communication with stakeholders.",
+    link: "See how we manage projects",
     reverse: false,
   },
 ];
@@ -61,10 +61,10 @@ export default function ServiceHighlights() {
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="lg:w-2/3">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
-              We Want to Work with You
+              We Want to Build with You
             </h2>
             <p className="text-gray-700 mb-4">
-              IFDC has built a reputation in developing major fertilizer products currently in the market that are highly nutrient efficient and well proven in their adoption and use. Beyond fertilizers, IFDC has successfully implemented agricultural technologies at scale through innovative and sustainable agribusiness models and mechanisms, by engaging a variety of partners and building effective public-private partnerships. Whether you are in the private sector, a bilateral organization, a national research organization, or an implementing NGO working directly with large numbers of farmers, we want to partner with you.
+              Azim Construction Company is a trusted partner for governments, developers, and private investors across Africa. With a proven track record in delivering large-scale housing, roads, energy, and infrastructure projects, we bring technical precision and financial innovation to every job. Whether you're seeking a reliable contractor or a long-term development partner, we are ready to collaborate and deliver lasting impact.
             </p>
             <p className="text-sm font-bold text-gray-700 border-b-[3px] border-[#D4ADFC] w-fit">
               Get in Touch with Us
