@@ -24,7 +24,7 @@ const Solutions = () => {
   };
 
   const animateCounter = () => {
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
       setCounts((prev) => {
         const next = {
           houses: Math.min(prev.houses + increments.houses, durations.houses),

@@ -68,7 +68,8 @@ export default function WhatWeDoPage() {
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-3">Nigeria Affordable Mass Housing Programme (NAMHP)</h3>
               <p>
-                A nationwide initiative providing safe, modern, and affordable housing for low- and middle-income earners, reducing Nigeria's housing deficit.
+                A nationwide initiative providing safe, modern, and affordable housing for low- and middle-income earners, reducing Nigeria&rsquo;s housing deficit
+.
                 Building on the success of NAMHP, the programme will be replicated in other African countries facing similar housing challenges. By partnering with local governments and private sector stakeholders, we aim to develop affordable housing solutions tailored to the unique needs of each country, fostering urban development and improving living standards across the continent.
               </p>
             </div>
